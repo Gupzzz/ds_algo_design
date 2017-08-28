@@ -1,0 +1,6 @@
+c:\users\aramakris\documents\visual studio 2017\Projects\Recursions\Recursions\bin\Debug\Recursions.exe.config
+c:\users\aramakris\documents\visual studio 2017\Projects\Recursions\Recursions\bin\Debug\Recursions.exe
+c:\users\aramakris\documents\visual studio 2017\Projects\Recursions\Recursions\bin\Debug\Recursions.pdb
+c:\users\aramakris\documents\visual studio 2017\Projects\Recursions\Recursions\obj\Debug\Recursions.csprojResolveAssemblyReference.cache
+c:\users\aramakris\documents\visual studio 2017\Projects\Recursions\Recursions\obj\Debug\Recursions.exe
+c:\users\aramakris\documents\visual studio 2017\Projects\Recursions\Recursions\obj\Debug\Recursions.pdb
