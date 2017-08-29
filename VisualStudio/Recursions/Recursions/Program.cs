@@ -18,9 +18,11 @@ namespace Recursions
 
             //prog.PerfectSquareM();
 
-            //prog.TreeTraversals();
+            //prog.TreeTraversalsM();
 
-            //prog.ConstructTreeFromTraversals();
+            //prog.ConstructTreeFromTraversalsM();
+
+            //prog.TowerOfHanoiM();
 
             Console.ReadKey();
         }
@@ -58,7 +60,7 @@ namespace Recursions
                 Console.WriteLine("The given number is a perfrct square and the squareroot is {0}", result);
         }
 
-        public void TreeTraversals()
+        public void TreeTraversalsM()
         {
             TreeTraversals treeTraversals = new TreeTraversals();            
 
@@ -90,7 +92,7 @@ namespace Recursions
             Console.WriteLine();
         }
 
-        public void ConstructTreeFromTraversals()
+        public void ConstructTreeFromTraversalsM()
         {
             char[] preOrderTraversal = { 'A', 'B', 'D', 'E', 'C' };
             char[] inOrderTraversal = { 'D', 'B', 'E', 'A', 'C' };
@@ -101,5 +103,13 @@ namespace Recursions
             TreeTraversals treeTraversals = new TreeTraversals();
             treeTraversals.PostOrderTreeTraversal(root);
         }
+
+        public void TowerOfHanoiM()
+        {
+            TowerOfHanoi towerOfHanoi = new TowerOfHanoi();
+            towerOfHanoi.SolveTowerOfHanoi(3, "A", "B", "C");
+        }
+
+
     }
 }

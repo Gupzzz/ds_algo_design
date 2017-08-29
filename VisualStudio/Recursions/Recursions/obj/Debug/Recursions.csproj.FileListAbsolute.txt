@@ -4,3 +4,9 @@ c:\users\aramakris\documents\visual studio 2017\Projects\Recursions\Recursions\b
 c:\users\aramakris\documents\visual studio 2017\Projects\Recursions\Recursions\obj\Debug\Recursions.csprojResolveAssemblyReference.cache
 c:\users\aramakris\documents\visual studio 2017\Projects\Recursions\Recursions\obj\Debug\Recursions.exe
 c:\users\aramakris\documents\visual studio 2017\Projects\Recursions\Recursions\obj\Debug\Recursions.pdb
+C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\bin\Debug\Recursions.exe.config
+C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\bin\Debug\Recursions.exe
+C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\bin\Debug\Recursions.pdb
+C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\obj\Debug\Recursions.csprojResolveAssemblyReference.cache
+C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\obj\Debug\Recursions.exe
+C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\obj\Debug\Recursions.pdb
