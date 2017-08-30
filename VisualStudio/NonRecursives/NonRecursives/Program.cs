@@ -11,8 +11,10 @@ namespace NonRecursives
         static void Main(string[] args)
         {
             Program prog = new Program();
-            //prog.CalculateMaxProfit();
-            prog.CalculateMaxDifference();
+
+            prog.CalculateMaxProfit();
+
+            //prog.CalculateMaxDifference();
 
             Console.ReadKey();
         }
@@ -22,9 +24,7 @@ namespace NonRecursives
             StockPrize stockPrize = new StockPrize();
 
             int[] shareValue = {100, 20, 50, 40, 60};
-            int maxProfit = stockPrize.CalculateMaxProfit(shareValue);
-
-            Console.WriteLine("The Max profit that can be obtained in the given period for the stock is {0} ", maxProfit);
+            stockPrize.CalculateMaxProfit(shareValue, shareValue.Length - 1);
         }
 
         public void CalculateMaxDifference()
