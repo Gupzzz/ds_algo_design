@@ -45,6 +45,7 @@
     <Compile Include="MaxDifference.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SnakeAndLadder.cs" />
     <Compile Include="StockPrize.cs" />
   </ItemGroup>
   <ItemGroup>
