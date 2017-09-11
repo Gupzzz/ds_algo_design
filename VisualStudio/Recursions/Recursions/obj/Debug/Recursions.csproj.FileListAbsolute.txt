@@ -10,3 +10,5 @@ C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\bin\Debug\Recursions
 C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\obj\Debug\Recursions.csprojResolveAssemblyReference.cache
 C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\obj\Debug\Recursions.exe
 C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\obj\Debug\Recursions.pdb
+C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\bin\Debug\Recursions.exe.CodeAnalysisLog.xml
+C:\GIT\myCodingExercises\VisualStudio\Recursions\Recursions\bin\Debug\Recursions.exe.lastcodeanalysissucceeded

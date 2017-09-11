@@ -10,19 +10,19 @@ namespace Recursions
     {
         static void Main(string[] args)
         {
-            Program prog = new Program();
+            Program programObject = new Program();
 
-            //prog.FibonacciM();
+            programObject.FibonacciM();
 
-            //prog.BinarySearchM();
+            programObject.BinarySearchM();
 
-            //prog.PerfectSquareM();
+            programObject.PerfectSquareM();
 
-            //prog.TreeTraversalsM();
+            programObject.TreeTraversalsM();
 
-            //prog.ConstructTreeFromTraversalsM();
+            programObject.ConstructTreeFromTraversalsM();
 
-            //prog.TowerOfHanoiM();
+            programObject.TowerOfHanoiM();
 
             Console.ReadKey();
         }

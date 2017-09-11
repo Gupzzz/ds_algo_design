@@ -1,0 +1,6 @@
+C:\GIT\myCodingExercises\VisualStudio\NonRecursives\NonRecursives\bin\Debug\NonRecursives.exe.config
+C:\GIT\myCodingExercises\VisualStudio\NonRecursives\NonRecursives\bin\Debug\NonRecursives.exe
+C:\GIT\myCodingExercises\VisualStudio\NonRecursives\NonRecursives\bin\Debug\NonRecursives.pdb
+C:\GIT\myCodingExercises\VisualStudio\NonRecursives\NonRecursives\obj\Debug\NonRecursives.csprojResolveAssemblyReference.cache
+C:\GIT\myCodingExercises\VisualStudio\NonRecursives\NonRecursives\obj\Debug\NonRecursives.exe
+C:\GIT\myCodingExercises\VisualStudio\NonRecursives\NonRecursives\obj\Debug\NonRecursives.pdb
