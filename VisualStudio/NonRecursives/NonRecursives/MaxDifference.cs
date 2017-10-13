@@ -8,7 +8,7 @@ namespace NonRecursives
 {
     public class MaxDifference
     {
-        // Calculate the max diff such that the larger element affears after the smaller element
+        // Calculate the max diff such that the larger element appears after the smaller element
         public int CalculateMaxDifference(int[] values)
         {
             int maxDiff = values[1] - values[0];

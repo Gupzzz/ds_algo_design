@@ -67,5 +67,6 @@ namespace NonRecursives
     public class Interval
     {
         public int buy, sell;
+
     }
 }

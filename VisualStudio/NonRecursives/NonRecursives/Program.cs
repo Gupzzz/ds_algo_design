@@ -14,9 +14,9 @@ namespace NonRecursives
 
             //prog.CalculateMaxProfit();
 
-            //prog.CalculateMaxDifference();
+            prog.CalculateMaxDifference();
 
-            prog.CalculateMinDiceThrowsSnakeAndLadders();
+            //prog.CalculateMinDiceThrowsSnakeAndLadders();
 
             Console.ReadKey();
         }
@@ -32,7 +32,7 @@ namespace NonRecursives
         public void CalculateMaxDifference()
         {
             MaxDifference maxDiffrenece = new MaxDifference();
-            int[] values = { 100, 20, 50, 40, 60 };
+            int[] values = { 100, 20, 50, 40, 90, 5 };
             int result = maxDiffrenece.CalculateMaxDifference(values);
             Console.WriteLine("The max difference within the given set of values is {0}", result);
         }
