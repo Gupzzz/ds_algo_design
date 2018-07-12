@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NonRecursives
+namespace VScode
 {
     public class MaxDifference
     {
