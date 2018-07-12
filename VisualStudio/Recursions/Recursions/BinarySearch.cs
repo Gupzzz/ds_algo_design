@@ -12,7 +12,8 @@ namespace Recursions
         {            
             if ( right >= left )
             {
-                int mid = left + ((right - left) / 2);
+                //Because if we do left + right / 2. It might cause an overflow of int or any other DS
+                int mid = left + ((right - left) / 2);  
 
                 // If the element is present at the middle itself
                 if (content[mid] == value)

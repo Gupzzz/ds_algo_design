@@ -12,17 +12,17 @@ namespace Recursions
         {
             Program programObject = new Program();
 
-            programObject.FibonacciM();
+            //programObject.FibonacciM();
 
             programObject.BinarySearchM();
 
-            programObject.PerfectSquareM();
+            // programObject.PerfectSquareM();
 
-            programObject.TreeTraversalsM();
+            // programObject.TreeTraversalsM();
 
-            programObject.ConstructTreeFromTraversalsM();
+            // programObject.ConstructTreeFromTraversalsM();
 
-            programObject.TowerOfHanoiM();
+            // programObject.TowerOfHanoiM();
 
             Console.ReadKey();
         }
@@ -40,11 +40,11 @@ namespace Recursions
         public void BinarySearchM()
         {
             BinarySearch bs = new BinarySearch();
-            int[] content = { 2, 3, 4, 10, 40 };
+            int[] content = { 2, 4, 80, 90, 150};
             int value = 4;
             int result = bs.BinarySearchTheValue(content, value, 0, content.Length - 1);
             if (result == -1)
-                Console.WriteLine("Element is not present in array");
+                Console.WriteLine("Element is not present in the list of given values");
             else
                 Console.WriteLine("Element is present at index {0}", result);
         }
