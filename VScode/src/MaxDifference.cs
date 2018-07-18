@@ -13,8 +13,7 @@ namespace VScode
         {
             int maxDiff = values[1] - values[0];
             int minElement = values[0];
-            int i;
-            for (i = 1; i < values.Length; i++)
+            for (int i = 1; i < values.Length; i++)
             {
                 if (values[i] - minElement > maxDiff)
                     maxDiff = values[i] - minElement;
