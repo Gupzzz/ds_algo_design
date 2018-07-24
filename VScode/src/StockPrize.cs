@@ -61,8 +61,7 @@ namespace VScode
                 for (int j = 0; j < count; j++)
                     Console.WriteLine("Buy on day: " + (solution[j].buy + 1) + " Sell on day : " + (solution[j].sell + 1));
             return;
-        }
-
+        }   
     }
     public class Interval
     {

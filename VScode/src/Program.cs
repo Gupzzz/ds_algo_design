@@ -10,9 +10,9 @@ namespace VScode
 
             //prog.CalculateMaxProfit();
 
-            prog.CalculateMaxDifference();
+            //prog.CalculateMaxDifference();
 
-            //prog.CalculateMinDiceThrowsSnakeAndLadders();
+            prog.CalculateMinDiceThrowsSnakeAndLadders();
 
         }
 

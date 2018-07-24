@@ -78,7 +78,7 @@ namespace VScode
             // We reach here when 'qe' has last vertex
             // return the distance of vertex in 'qe'
             return queueEntry.HopsFromSource;
-        }  
+        } 
     }
 
     public class QueueEntry
