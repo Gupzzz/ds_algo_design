@@ -32,5 +32,28 @@ namespace VScode
             return -1 ;
 
         }
+
+        public int AlternateBinarySearchTheValue( int[] content, int value, int left, int right )
+        {            
+            if (right < left)
+            {
+                return -1;
+            }
+
+            var mid = (left + right)/2;
+            if (content[mid] == value)
+            {
+                return mid;
+            }
+            else if(value > content[mid])
+            {
+                return AlternateBinarySearchTheValue(content, value, mid+1, right);
+            }
+            else
+            {
+                return AlternateBinarySearchTheValue(content, value, left, mid-1);                
+            }
+
+        }
     }
 }

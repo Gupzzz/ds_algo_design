@@ -9,15 +9,15 @@ namespace VScode
             Program programObject = new Program();
 
             #region Non recursive calls
-            //programObject.CalculateMaxProfit();
+            // programObject.CalculateMaxProfit();
 
-            //programObject.CalculateMaxDifference();
+            // programObject.CalculateMaxDifference();
 
-            //programObject.CalculateMinDiceThrowsSnakeAndLadders();
+            // programObject.CalculateMinDiceThrowsSnakeAndLadders();
             #endregion
 
             #region Recursive calls
-            //programObject.FibonacciM();
+            // programObject.FibonacciM();
 
             programObject.BinarySearchM();
 
@@ -30,7 +30,7 @@ namespace VScode
             // programObject.TowerOfHanoiM();
             #endregion
 
-            Console.ReadKey();
+            Console.Read();
 
         }
 
@@ -93,7 +93,7 @@ namespace VScode
         {
             BinarySearch bs = new BinarySearch();
             int[] content = { 2, 4, 80, 90, 150 };
-            int value = 4;
+            int value = 90;
             int result = bs.BinarySearchTheValue(content, value, 0, content.Length - 1);
             if (result == -1)
                 Console.WriteLine("Element is not present in the list of given values");
