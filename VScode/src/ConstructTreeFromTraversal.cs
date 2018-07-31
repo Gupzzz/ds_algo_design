@@ -26,12 +26,12 @@ namespace VScode
 
             int inOrderIndex = Search(inOrderTraversal, inOrderStart, inOrderEnd, tNode.Value);
 
-            tNode.left = BuildTree(inOrderTraversal, preOrderTraversal, inOrderStart, inOrderIndex - 1);
-            tNode.right = BuildTree(inOrderTraversal, preOrderTraversal, inOrderIndex + 1, inOrderEnd);
+            tNode.left =  BuildTree(inOrderTraversal, preOrderTraversal, inOrderStart, inOrderIndex - 1);
+            tNode.right =  BuildTree(inOrderTraversal, preOrderTraversal, inOrderIndex + 1, inOrderEnd);
 
             return tNode;
         }
-
+        
         int Search(char[] inOrderTraversal, int start, int end, char value)
         {
             int i;

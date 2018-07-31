@@ -8,6 +8,7 @@ namespace VScode
 {
     public class TreeTraversals
     {
+        // root, left, right
         public void PreOrderTreeTraversal(Node node)
         {
             if (node == null)
@@ -20,6 +21,7 @@ namespace VScode
             PreOrderTreeTraversal(node.right);
         }
 
+        // left, root, right
         public void InOrderTreeTraversal(Node node)
         {
             if (node == null)
@@ -32,6 +34,7 @@ namespace VScode
             InOrderTreeTraversal(node.right);
         }
 
+        // left, right, root
         public void PostOrderTreeTraversal(Node node)
         {
             if (node == null)

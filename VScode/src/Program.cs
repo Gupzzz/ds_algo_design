@@ -19,13 +19,13 @@ namespace VScode
             #region Recursive calls
             // programObject.FibonacciM();
 
-            programObject.BinarySearchM();
+            // programObject.BinarySearchM();
 
             // programObject.PerfectSquareM();
 
             // programObject.TreeTraversalsM();
 
-            // programObject.ConstructTreeFromTraversalsM();
+            programObject.ConstructTreeFromTraversalsM();
 
             // programObject.TowerOfHanoiM();
             #endregion
