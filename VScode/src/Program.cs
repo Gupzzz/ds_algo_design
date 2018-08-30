@@ -25,9 +25,9 @@ namespace VScode
 
             // programObject.TreeTraversalsM();
 
-            programObject.ConstructTreeFromTraversalsM();
+            // programObject.ConstructTreeFromTraversalsM();
 
-            // programObject.TowerOfHanoiM();
+            programObject.TowerOfHanoiM();
             #endregion
 
             Console.Read();

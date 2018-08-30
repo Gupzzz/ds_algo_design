@@ -19,6 +19,6 @@ namespace VScode
             SolveTowerOfHanoi(noOfDiscs - 1, source, destination, auxiliary);
             Console.WriteLine("Move disk " + noOfDiscs + " from rod " + source + " to rod " + destination);
             SolveTowerOfHanoi(noOfDiscs - 1, auxiliary, source, destination);
-        }    
+        } 
     }
 }
