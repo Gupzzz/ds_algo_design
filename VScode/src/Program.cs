@@ -27,7 +27,11 @@ namespace VScode
 
             // programObject.ConstructTreeFromTraversalsM();
 
-            programObject.TowerOfHanoiM();
+            // programObject.TowerOfHanoiM();
+
+            // Find duplicate in an array
+
+            // Sum of k numbers equals n in a given array
             #endregion
 
             Console.Read();
