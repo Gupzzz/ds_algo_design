@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NonRecursives
+namespace VScode
 {
     public class StockPrize
     {
@@ -61,8 +61,7 @@ namespace NonRecursives
                 for (int j = 0; j < count; j++)
                     Console.WriteLine("Buy on day: " + (solution[j].buy + 1) + " Sell on day : " + (solution[j].sell + 1));
             return;
-        }
-
+        }   
     }
     public class Interval
     {

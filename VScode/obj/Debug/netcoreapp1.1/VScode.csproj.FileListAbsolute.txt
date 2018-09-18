@@ -1,0 +1,9 @@
+C:\GIT\myCodingExercises\VScode\bin\Debug\netcoreapp1.1\VScode.deps.json
+C:\GIT\myCodingExercises\VScode\bin\Debug\netcoreapp1.1\VScode.runtimeconfig.json
+C:\GIT\myCodingExercises\VScode\bin\Debug\netcoreapp1.1\VScode.runtimeconfig.dev.json
+C:\GIT\myCodingExercises\VScode\bin\Debug\netcoreapp1.1\VScode.dll
+C:\GIT\myCodingExercises\VScode\bin\Debug\netcoreapp1.1\VScode.pdb
+C:\GIT\myCodingExercises\VScode\obj\Debug\netcoreapp1.1\VScode.csprojResolveAssemblyReference.cache
+C:\GIT\myCodingExercises\VScode\obj\Debug\netcoreapp1.1\VScode.AssemblyInfo.cs
+C:\GIT\myCodingExercises\VScode\obj\Debug\netcoreapp1.1\VScode.dll
+C:\GIT\myCodingExercises\VScode\obj\Debug\netcoreapp1.1\VScode.pdb

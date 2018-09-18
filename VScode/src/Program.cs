@@ -1,20 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Recursions
+namespace VScode
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Program programObject = new Program();
 
-            //programObject.FibonacciM();
+            #region Non recursive calls
+            // programObject.CalculateMaxProfit();
 
-            programObject.BinarySearchM();
+            // programObject.CalculateMaxDifference();
+
+            // programObject.CalculateMinDiceThrowsSnakeAndLadders();
+            #endregion
+
+            #region Recursive calls
+            // programObject.FibonacciM();
+
+            // programObject.BinarySearchM();
 
             // programObject.PerfectSquareM();
 
@@ -22,11 +27,59 @@ namespace Recursions
 
             // programObject.ConstructTreeFromTraversalsM();
 
-            // programObject.TowerOfHanoiM();
+            programObject.TowerOfHanoiM();
+            #endregion
 
-            Console.ReadKey();
+            Console.Read();
+
         }
 
+        #region NonRecursiveFunctions
+        public void CalculateMaxProfit()
+        {
+            StockPrize stockPrize = new StockPrize();
+
+            int[] shareValue = { 100, 20, 50, 40, 60 };
+            stockPrize.CalculateMaxProfit(shareValue, shareValue.Length - 1);
+        }
+
+        public void CalculateMaxDifference()
+        {
+            MaxDifference maxDiffrenece = new MaxDifference();
+            int[] values = { 100, 20, 50, 40, 90, 5 };
+            int result = maxDiffrenece.CalculateMaxDifference(values);
+            Console.WriteLine("The max difference within the given set of values is {0}", result);
+        }
+
+        public void CalculateMinDiceThrowsSnakeAndLadders()
+        {
+
+            // Let us construct the board given in above diagram
+            int n = 30;
+            int[] moves = new int[n];
+            for (int i = 0; i < n; i++)
+                moves[i] = -1;
+
+            // Ladders
+            moves[2] = 21;
+            moves[4] = 7;
+            moves[10] = 25;
+            moves[19] = 28;
+
+            // Snakes
+            moves[26] = 0;
+            moves[20] = 8;
+            moves[16] = 3;
+            moves[18] = 6;
+
+            SnakeAndLadder snakeAndLadder = new SnakeAndLadder();
+
+            Console.WriteLine(snakeAndLadder.GetMinDiceThrows(moves, n));
+        }
+        #endregion
+
+
+        #region RecursiveFunctions
         public void FibonacciM()
         {
             Fibonacci fibo = new Fibonacci();
@@ -39,8 +92,8 @@ namespace Recursions
         public void BinarySearchM()
         {
             BinarySearch bs = new BinarySearch();
-            int[] content = { 2, 4, 80, 90, 150};
-            int value = 4;
+            int[] content = { 2, 4, 80, 90, 150 };
+            int value = 90;
             int result = bs.BinarySearchTheValue(content, value, 0, content.Length - 1);
             if (result == -1)
                 Console.WriteLine("Element is not present in the list of given values");
@@ -61,7 +114,7 @@ namespace Recursions
 
         public void TreeTraversalsM()
         {
-            TreeTraversals treeTraversals = new TreeTraversals();            
+            TreeTraversals treeTraversals = new TreeTraversals();
 
             Node root = new Node('A')
             {
@@ -108,7 +161,7 @@ namespace Recursions
             TowerOfHanoi towerOfHanoi = new TowerOfHanoi();
             towerOfHanoi.SolveTowerOfHanoi(3, "A", "B", "C");
         }
-
+        #endregion
 
     }
 }

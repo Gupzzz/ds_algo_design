@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NonRecursives
+namespace VScode
 {
     public class MaxDifference
     {
@@ -13,8 +13,7 @@ namespace NonRecursives
         {
             int maxDiff = values[1] - values[0];
             int minElement = values[0];
-            int i;
-            for (i = 1; i < values.Length; i++)
+            for (int i = 1; i < values.Length; i++)
             {
                 if (values[i] - minElement > maxDiff)
                     maxDiff = values[i] - minElement;
