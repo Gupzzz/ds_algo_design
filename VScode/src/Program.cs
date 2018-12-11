@@ -13,7 +13,8 @@ namespace VScode
 
             // programObject.CalculateMaxDifference();
 
-            // programObject.CalculateMinDiceThrowsSnakeAndLadders();
+            // programObject.CalculateMinDiceThrowsSnakeAndLadders();           
+
             #endregion
 
             #region Recursive calls
@@ -28,6 +29,10 @@ namespace VScode
             // programObject.ConstructTreeFromTraversalsM();
 
             // programObject.TowerOfHanoiM();
+            
+            programObject.MaxSumPathFromRootM();
+
+            programObject.RootToLeafSumM();
 
             // Find duplicate in an array
 
@@ -39,6 +44,48 @@ namespace VScode
         }
 
         #region NonRecursiveFunctions
+        public void MaxSumPathFromRootM(){
+            NodeInt root = new NodeInt(10)
+            {
+                left = new NodeInt(20),
+                right = new NodeInt(30)
+            };
+
+            root.left.left = new NodeInt(10)
+            {
+                left = new NodeInt(50),
+                right = new NodeInt(100)
+            };
+
+            root.left.right = new NodeInt(200)
+            {
+                left = new NodeInt(40),
+                right = new NodeInt(20)
+            };
+            MaxPathFromRoot maxPathFromRoot = new MaxPathFromRoot();
+            maxPathFromRoot.FindMaxPathFromRoot(root);
+        }
+        public void RootToLeafSumM(){
+            NodeInt root = new NodeInt(10)
+            {
+                left = new NodeInt(20),
+                right = new NodeInt(30)
+            };
+
+            root.left.left = new NodeInt(10)
+            {
+                left = new NodeInt(50),
+                right = new NodeInt(100)
+            };
+
+            root.left.right = new NodeInt(200)
+            {
+                left = new NodeInt(40),
+                right = new NodeInt(20)
+            };
+            RootToLeafSum rootToLeafSum = new RootToLeafSum();
+            rootToLeafSum.FindRootToLeafSum(root, 500);
+        }
         public void CalculateMaxProfit()
         {
             StockPrize stockPrize = new StockPrize();
@@ -52,7 +99,7 @@ namespace VScode
             MaxDifference maxDiffrenece = new MaxDifference();
             int[] values = { 100, 20, 50, 40, 90, 5 };
             int result = maxDiffrenece.CalculateMaxDifference(values);
-            Console.WriteLine("The max difference within the given set of values is {0}", result);
+            Console.WriteLine("The max difference within the given set of values is {0} , such that larger value comes after the smallest", result);
         }
 
         public void CalculateMinDiceThrowsSnakeAndLadders()
@@ -120,19 +167,19 @@ namespace VScode
         {
             TreeTraversals treeTraversals = new TreeTraversals();
 
-            Node root = new Node('A')
+            NodeChar root = new NodeChar('A')
             {
-                left = new Node('B'),
-                right = new Node('C')
+                left = new NodeChar('B'),
+                right = new NodeChar('C')
             };
 
-            root.left.left = new Node('D')
+            root.left.left = new NodeChar('D')
             {
                 //left = new Node('F'),
                 //right = new Node('G')
             };
 
-            root.left.right = new Node('E')
+            root.left.right = new NodeChar('E')
             {
                 //left = new Node('H'),
                 //right = new Node('I')
@@ -155,7 +202,7 @@ namespace VScode
             //char[] postOrderTraversal = { 'D', 'E', 'B', 'C', 'A' };
 
             ConstructTreeFromTraversal constructTreeFromTraversal = new ConstructTreeFromTraversal();
-            Node root = constructTreeFromTraversal.BuildTree(inOrderTraversal, preOrderTraversal, 0, inOrderTraversal.Length - 1);
+            NodeChar root = constructTreeFromTraversal.BuildTree(inOrderTraversal, preOrderTraversal, 0, inOrderTraversal.Length - 1);
             TreeTraversals treeTraversals = new TreeTraversals();
             treeTraversals.PostOrderTreeTraversal(root);
         }

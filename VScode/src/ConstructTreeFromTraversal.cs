@@ -10,14 +10,14 @@ namespace VScode
     {
         int preOrderIndex = 0;
 
-        public Node BuildTree(char[] inOrderTraversal, char[] preOrderTraversal, int inOrderStart, int inOrderEnd)
+        public NodeChar BuildTree(char[] inOrderTraversal, char[] preOrderTraversal, int inOrderStart, int inOrderEnd)
         {
             if (inOrderStart > inOrderEnd)
             {
                 return null;
             }
 
-            Node tNode = new Node(preOrderTraversal[preOrderIndex++]);
+            NodeChar tNode = new NodeChar(preOrderTraversal[preOrderIndex++]);
 
             if (inOrderStart == inOrderEnd)
             {
