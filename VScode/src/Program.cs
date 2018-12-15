@@ -18,6 +18,7 @@ namespace VScode
             #endregion
 
             #region Recursive calls
+            programObject.SubstringOccurranceInStringM();
             // programObject.FibonacciM();
 
             // programObject.BinarySearchM();
@@ -29,10 +30,10 @@ namespace VScode
             // programObject.ConstructTreeFromTraversalsM();
 
             // programObject.TowerOfHanoiM();
-            
-            programObject.MaxSumPathFromRootM();
 
-            programObject.RootToLeafSumM();
+            // programObject.MaxSumPathFromRootM();
+
+            // programObject.RootToLeafSumM();
 
             // Find duplicate in an array
 
@@ -43,8 +44,17 @@ namespace VScode
 
         }
 
-        #region NonRecursiveFunctions
-        public void MaxSumPathFromRootM(){
+        public void SubstringOccurranceInStringM()
+        {
+            SubStringOccurranceInStringC subStringOccurranceInStringC = new SubStringOccurranceInStringC();
+            string completeString = "GeeksforGeeks";
+            string subString = "Gks";
+            int count = subStringOccurranceInStringC.SubStringOccurranceInString1(completeString,
+                        subString, completeString.Length, subString.Length);
+            Console.WriteLine("Count is : {0}", count);
+        }
+        public void MaxSumPathFromRootM()
+        {
             NodeInt root = new NodeInt(10)
             {
                 left = new NodeInt(20),
@@ -65,7 +75,8 @@ namespace VScode
             MaxPathFromRoot maxPathFromRoot = new MaxPathFromRoot();
             maxPathFromRoot.FindMaxPathFromRoot(root);
         }
-        public void RootToLeafSumM(){
+        public void RootToLeafSumM()
+        {
             NodeInt root = new NodeInt(10)
             {
                 left = new NodeInt(20),
@@ -127,10 +138,10 @@ namespace VScode
 
             Console.WriteLine(snakeAndLadder.GetMinDiceThrows(moves, n));
         }
-        #endregion
 
 
-        #region RecursiveFunctions
+
+
         public void FibonacciM()
         {
             Fibonacci fibo = new Fibonacci();
@@ -212,7 +223,6 @@ namespace VScode
             TowerOfHanoi towerOfHanoi = new TowerOfHanoi();
             towerOfHanoi.SolveTowerOfHanoi(3, "A", "B", "C");
         }
-        #endregion
 
     }
 }
