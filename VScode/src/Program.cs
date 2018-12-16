@@ -8,17 +8,14 @@ namespace VScode
         {
             Program programObject = new Program();
 
-            #region Non recursive calls
             // programObject.CalculateMaxProfit();
 
             // programObject.CalculateMaxDifference();
 
             // programObject.CalculateMinDiceThrowsSnakeAndLadders();           
 
-            #endregion
+            // programObject.SubstringOccurranceInStringM();
 
-            #region Recursive calls
-            programObject.SubstringOccurranceInStringM();
             // programObject.FibonacciM();
 
             // programObject.BinarySearchM();
@@ -35,15 +32,23 @@ namespace VScode
 
             // programObject.RootToLeafSumM();
 
+            programObject.SubArrayWithSumGreaterThanNumberM();
+
             // Find duplicate in an array
 
             // Sum of k numbers equals n in a given array
-            #endregion
 
             Console.Read();
 
         }
 
+        public void SubArrayWithSumGreaterThanNumberM()
+        {
+            SubArrayWithSumGreaterThanNumberC subArrayWithSumGreaterThanNumberC = new SubArrayWithSumGreaterThanNumberC();
+            int[] arr = {1, 4, 45, 6, 0, 19};
+            int result = subArrayWithSumGreaterThanNumberC.SubArrayWithSumGreaterThanNumber(arr, 51);
+            Console.WriteLine("Length is {0}", result);
+        }
         public void SubstringOccurranceInStringM()
         {
             SubStringOccurranceInStringC subStringOccurranceInStringC = new SubStringOccurranceInStringC();
