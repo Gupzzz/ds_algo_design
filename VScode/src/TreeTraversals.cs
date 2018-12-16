@@ -9,7 +9,7 @@ namespace VScode
     public class TreeTraversals
     {
         // root, left, right
-        public void PreOrderTreeTraversal(Node node)
+        public void PreOrderTreeTraversal(NodeChar node)
         {
             if (node == null)
                 return;
@@ -22,7 +22,7 @@ namespace VScode
         }
 
         // left, root, right
-        public void InOrderTreeTraversal(Node node)
+        public void InOrderTreeTraversal(NodeChar node)
         {
             if (node == null)
                 return;
@@ -35,7 +35,7 @@ namespace VScode
         }
 
         // left, right, root
-        public void PostOrderTreeTraversal(Node node)
+        public void PostOrderTreeTraversal(NodeChar node)
         {
             if (node == null)
                 return;
@@ -48,9 +48,9 @@ namespace VScode
         }
     }
 
-    public class Node
+    public class NodeChar
     {
-        public Node(char value)
+        public NodeChar(char value)
         {
             Value = value;
             left = right = null;
@@ -58,6 +58,18 @@ namespace VScode
 
         public char Value { get; set; }
 
-        public Node left, right;
+        public NodeChar left, right;
+    }
+    public class NodeInt
+    {
+        public NodeInt(int value)
+        {
+            Value = value;
+            left = right = null;
+        }
+
+        public int Value { get; set; }
+
+        public NodeInt left, right;
     }
 }
