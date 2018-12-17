@@ -32,9 +32,9 @@ namespace VScode
 
             // programObject.RootToLeafSumM();
 
-            programObject.SubArrayWithSumGreaterThanNumberM();
+            // programObject.SubArrayWithSumGreaterThanNumberM();
 
-            // Find duplicate in an array
+            programObject.DuplicatesInArrayM();
 
             // Sum of k numbers equals n in a given array
 
@@ -42,6 +42,17 @@ namespace VScode
 
         }
 
+        public void DuplicatesInArrayM()
+        {
+            int[] arr = {1, 2, 3, 1, 3, 6, 6};
+            DuplicatesInArrayC duplicatesInArrayC = new DuplicatesInArrayC();
+            int[] duplicates = duplicatesInArrayC.DuplicatesInArray(arr);
+            Console.WriteLine("The duplicates are as below:");
+            for (int i = 0; i < duplicates.Length; i++)
+            {
+                Console.WriteLine("{0}", duplicates[i]);
+            }
+        }
         public void SubArrayWithSumGreaterThanNumberM()
         {
             SubArrayWithSumGreaterThanNumberC subArrayWithSumGreaterThanNumberC = new SubArrayWithSumGreaterThanNumberC();
