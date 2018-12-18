@@ -34,14 +34,26 @@ namespace VScode
 
             // programObject.SubArrayWithSumGreaterThanNumberM();
 
-            programObject.DuplicatesInArrayM();
+            // programObject.DuplicatesInArrayM();
+
+            programObject.ArrayRotationM();
 
             // Sum of k numbers equals n in a given array
-
+            
             Console.Read();
 
         }
 
+        public void ArrayRotationM()
+        {
+            int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+            ArrayRotationC arrayRotationC = new ArrayRotationC();
+            arrayRotationC.ArrayRotationUsingGCD(arr, 4);
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+        }
         public void DuplicatesInArrayM()
         {
             int[] arr = {1, 2, 3, 1, 3, 6, 6};
