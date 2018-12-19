@@ -36,7 +36,9 @@ namespace VScode
 
             // programObject.DuplicatesInArrayM();
 
-            programObject.ArrayRotationM();
+            // programObject.ArrayRotationM();
+
+            programObject.SumOfKNumbersEqualsSumM();
 
             // Sum of k numbers equals n in a given array
             
@@ -44,6 +46,19 @@ namespace VScode
 
         }
 
+        public void SumOfKNumbersEqualsSumM()
+        {
+            int[] arr = {10, 20, 35, 40};
+            SumOfKNumbersEqualsSumC sumOfKNumbersEqualsSumC = new SumOfKNumbersEqualsSumC();
+            if (sumOfKNumbersEqualsSumC.SumOfKNumbersEqualsSum(arr, 0, 50))
+            {
+                Console.WriteLine("True");
+            }
+            else{
+                Console.WriteLine("False");
+            }
+            
+        }
         public void ArrayRotationM()
         {
             int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
