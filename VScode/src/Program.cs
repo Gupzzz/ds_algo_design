@@ -38,7 +38,7 @@ namespace VScode
 
             // programObject.ArrayRotationM();
 
-            programObject.SumOfKNumbersEqualsSumM();
+            programObject.SumOfNumbersEqualsSumM();
 
             // Sum of k numbers equals n in a given array
             
