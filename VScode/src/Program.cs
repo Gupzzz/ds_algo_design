@@ -46,11 +46,11 @@ namespace VScode
 
         }
 
-        public void SumOfKNumbersEqualsSumM()
+        public void SumOfNumbersEqualsSumM()
         {
             int[] arr = {10, 20, 35, 40};
             SumOfKNumbersEqualsSumC sumOfKNumbersEqualsSumC = new SumOfKNumbersEqualsSumC();
-            if (sumOfKNumbersEqualsSumC.SumOfKNumbersEqualsSum(arr, 0, 50))
+            if (sumOfKNumbersEqualsSumC.SumOfNumbersEqualsSum(arr, 0, 50))
             {
                 Console.WriteLine("True");
             }
