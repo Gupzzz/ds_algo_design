@@ -1,6 +1,6 @@
 namespace VScode
 {
-    public class SumOfKNumbersEqualsSumC
+    public class SumOfNumbersEqualsSumC
     {
         public bool SumOfNumbersEqualsSum(int[] arr, int i, int sum)
         {

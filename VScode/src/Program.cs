@@ -38,19 +38,32 @@ namespace VScode
 
             // programObject.ArrayRotationM();
 
-            programObject.SumOfNumbersEqualsSumM();
+            // programObject.SumOfNumbersEqualsSumM();
 
-            // Sum of k numbers equals n in a given array
+            programObject.SumOfKNumbersEqualsSumM();
             
             Console.Read();
 
+        }
+        public void SumOfKNumbersEqualsSumM()
+        {
+            int[] arr = {100, 20, 30, 55, 75};
+            SumOfKNumbersEqualsSumC sumOfKNumbersEqualsSumC = new SumOfKNumbersEqualsSumC();
+            if (sumOfKNumbersEqualsSumC.SumOfKNumbersEqualsSum(arr, 0, 3, 205))
+            {
+                Console.WriteLine("True");
+            }
+            else{
+                Console.WriteLine("False");
+            }
+            
         }
 
         public void SumOfNumbersEqualsSumM()
         {
             int[] arr = {10, 20, 35, 40};
-            SumOfKNumbersEqualsSumC sumOfKNumbersEqualsSumC = new SumOfKNumbersEqualsSumC();
-            if (sumOfKNumbersEqualsSumC.SumOfNumbersEqualsSum(arr, 0, 50))
+            SumOfNumbersEqualsSumC sumOfNumbersEqualsSumC = new SumOfNumbersEqualsSumC();
+            if (sumOfNumbersEqualsSumC.SumOfNumbersEqualsSum(arr, 0, 50))
             {
                 Console.WriteLine("True");
             }
