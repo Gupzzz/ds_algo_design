@@ -42,9 +42,33 @@ namespace VScode
 
             // programObject.SumOfKNumbersEqualsSumM();
 
-            programObject.TreeZigZagTraversalM();
+            // programObject.TreeZigZagTraversalM();
+
+            programObject.TreeDiagonalTraversalM();
             
             Console.Read();
+        }
+        public void TreeDiagonalTraversalM()
+        {
+            NodeInt root = new NodeInt(10)
+            {
+                left = new NodeInt(20),
+                right = new NodeInt(30)
+            };
+
+            // root.left.left = new NodeInt(10)
+            // {
+            //     // left = new NodeInt(50),
+            //     // right = new NodeInt(100)
+            // };
+
+            // root.left.right = new NodeInt(200)
+            // {
+            //     // left = new NodeInt(40),
+            //     // right = new NodeInt(20)
+            // };
+            TreeDiagonalTraversalC treeDiagonalTraversalC = new TreeDiagonalTraversalC();
+            treeDiagonalTraversalC.TreeDiagonalTraversal(root);
         }
         public void TreeZigZagTraversalM()
         {
