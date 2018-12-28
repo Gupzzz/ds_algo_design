@@ -8,7 +8,7 @@ namespace VScode
     {
         public void TreeDiagonalTraversal(NodeInt root)
         {
-            // create a map of list to store Diagonal elements 
+            // create a dictionary of list to store Diagonal elements 
             Dictionary<int, List<int>> diagonalPrint = new Dictionary<int, List<int>>();
             diagonalPrintUtil(root, 0, diagonalPrint);
 
@@ -48,7 +48,7 @@ namespace VScode
                 k.Add(root.Value);
             }
 
-            // Store all nodes of same line together as a vector 
+            // Store all nodes of same line together as a list 
             diagonalPrint[d] = k;
 
             // Increase the vertical distance if left child 
