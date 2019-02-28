@@ -12,7 +12,7 @@ namespace VScode
 
             // programObject.CalculateMaxDifference();
 
-            // programObject.CalculateMinDiceThrowsSnakeAndLadders();           
+            programObject.CalculateMinDiceThrowsSnakeAndLadders();           
 
             // programObject.SubstringOccurranceInStringM();
 
@@ -32,14 +32,11 @@ namespace VScode
 
             // programObject.RootToLeafSumM();
 
-            programObject.SubArrayWithSumGreaterThanNumberM();
+            // programObject.SubArrayWithSumGreaterThanNumberM();
 
             // Find duplicate in an array
 
             // Sum of k numbers equals n in a given array
-
-            Console.Read();
-
         }
 
         public void SubArrayWithSumGreaterThanNumberM()
@@ -88,7 +85,7 @@ namespace VScode
                 right = new NodeInt(30)
             };
 
-            root.left.left = new NodeInt(10)
+            root.left.left = new NodeInt(100)
             {
                 left = new NodeInt(50),
                 right = new NodeInt(100)
@@ -100,7 +97,7 @@ namespace VScode
                 right = new NodeInt(20)
             };
             RootToLeafSum rootToLeafSum = new RootToLeafSum();
-            rootToLeafSum.FindRootToLeafSum(root, 500);
+            Console.WriteLine(rootToLeafSum.FindRootToLeafSum(root, 270));
         }
         public void CalculateMaxProfit()
         {
@@ -128,6 +125,7 @@ namespace VScode
                 moves[i] = -1;
 
             // Ladders
+            moves[1] = 28;
             moves[2] = 21;
             moves[4] = 7;
             moves[10] = 25;

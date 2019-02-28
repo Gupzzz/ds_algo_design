@@ -12,10 +12,10 @@ namespace VScode
     {
         public bool FindRootToLeafSum(NodeInt node, int sum)
         {
-            if (node == null)
-            {
-                return (sum == 0);
-            }
+            // if (node == null)
+            // {
+            //     return (sum == 0);
+            // }
 
             int mySum = sum - node.Value;
             bool result = false;
@@ -23,11 +23,11 @@ namespace VScode
             {
                 return true;
             }
-            else if(mySum > 0 && node.left != null)
+            if(mySum > 0 && node.left != null)
             {
                 result = result || FindRootToLeafSum(node.left, mySum);
             }
-            else if(mySum > 0 && node.right != null)
+            if(mySum > 0 && node.right != null)
             {
                 result = result || FindRootToLeafSum(node.right, mySum);
             }
