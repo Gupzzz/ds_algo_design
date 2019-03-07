@@ -12,7 +12,7 @@ namespace VScode
 
             // programObject.CalculateMaxDifference();
 
-            programObject.CalculateMinDiceThrowsSnakeAndLadders();           
+            // programObject.CalculateMinDiceThrowsSnakeAndLadders();           
 
             // programObject.SubstringOccurranceInStringM();
 
@@ -34,11 +34,21 @@ namespace VScode
 
             // programObject.SubArrayWithSumGreaterThanNumberM();
 
+            programObject.LengthOfLongestPalindromicSubStringM();
+
             // Find duplicate in an array
 
             // Sum of k numbers equals n in a given array
+
+            // Longest Palindromic Substring
         }
 
+        public void LengthOfLongestPalindromicSubStringM(){
+            LengthOfLongestPalindromicSubStringC longestPalindromicSubStringC = new LengthOfLongestPalindromicSubStringC();
+            string inputString = "amadamkr";
+            int subStringLength = longestPalindromicSubStringC.GetLengthOfLongestPalindromicSubStringM(inputString, 0, inputString.Length - 1);
+            Console.WriteLine(String.Format("The longest palamdromic substring in {0} is {1}", inputString, subStringLength));
+        }
         public void SubArrayWithSumGreaterThanNumberM()
         {
             SubArrayWithSumGreaterThanNumberC subArrayWithSumGreaterThanNumberC = new SubArrayWithSumGreaterThanNumberC();
