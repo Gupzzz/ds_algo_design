@@ -34,14 +34,26 @@ namespace VScode
 
             // programObject.SubArrayWithSumGreaterThanNumberM();
 
-            programObject.LengthOfLongestPalindromicSubStringM();
+            // programObject.LengthOfLongestPalindromicSubStringM();
 
+            // Find the longest palindromic sub string
+
+            programObject.AllPossibleCombinationsOfElementsM();
+            
             // Find duplicate in an array
 
             // Sum of k numbers equals n in a given array
 
             // Longest Palindromic Substring
         }
+        public void AllPossibleCombinationsOfElementsM(){
+            AllPossibleCOmbinationsOfElementsC allPossibleCOmbinationsOfElementsC = new AllPossibleCOmbinationsOfElementsC();
+            int []arr = {1, 2, 3, 4, 5}; 
+            int k = 3; 
+            int n = arr.Length; 
+            int []data = new int[k];
+            allPossibleCOmbinationsOfElementsC.GetAllPossibleCombinationsOfElements(arr, data, 0, n - 1, 0, k);
+            }
 
         public void LengthOfLongestPalindromicSubStringM(){
             LengthOfLongestPalindromicSubStringC longestPalindromicSubStringC = new LengthOfLongestPalindromicSubStringC();
