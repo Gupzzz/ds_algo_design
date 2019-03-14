@@ -36,6 +36,8 @@ namespace VScode
 
             // programObject.LengthOfLongestPalindromicSubStringM();
 
+            // programObject.LongestPalindromicSubStringM();  //Not yet working 
+
             // Find the longest palindromic sub string
 
             programObject.AllPossibleCombinationsOfElementsM();
@@ -44,22 +46,29 @@ namespace VScode
 
             // Sum of k numbers equals n in a given array
 
-            // Longest Palindromic Substring
         }
         public void AllPossibleCombinationsOfElementsM(){
-            AllPossibleCOmbinationsOfElementsC allPossibleCOmbinationsOfElementsC = new AllPossibleCOmbinationsOfElementsC();
+            AllPossibleCombinationsOfElementsC allPossibleCombinationsOfElementsC = new AllPossibleCombinationsOfElementsC();
             int []arr = {1, 2, 3, 4, 5}; 
             int k = 3; 
             int n = arr.Length; 
             int []data = new int[k];
-            allPossibleCOmbinationsOfElementsC.GetAllPossibleCombinationsOfElements(arr, data, 0, n - 1, 0, k);
+            allPossibleCombinationsOfElementsC.GetAllPossibleCombinationsOfElements(arr, data, 0, n - 1, 0, k);
             }
 
+        public void LongestPalindromicSubStringM(){
+            String str = "forgeeksskeegfor";
+            LongestPalindromicSubStringC longestPalindromicSubStringC = new LongestPalindromicSubStringC();
+            int length = longestPalindromicSubStringC.GetLongestPalindromicSubString(str);
+        }
         public void LengthOfLongestPalindromicSubStringM(){
             LengthOfLongestPalindromicSubStringC longestPalindromicSubStringC = new LengthOfLongestPalindromicSubStringC();
             string inputString = "amadamkr";
             int subStringLength = longestPalindromicSubStringC.GetLengthOfLongestPalindromicSubStringM(inputString, 0, inputString.Length - 1);
             Console.WriteLine(String.Format("The longest palamdromic substring in {0} is {1}", inputString, subStringLength));
+
+            int otherSubStringLength = longestPalindromicSubStringC.lps(inputString);
+            Console.WriteLine(String.Format("The longest palamdromic substring in {0} is {1}", inputString, otherSubStringLength));
         }
         public void SubArrayWithSumGreaterThanNumberM()
         {
