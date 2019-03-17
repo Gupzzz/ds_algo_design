@@ -2,10 +2,18 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Welcome to java Dhivya");
         App app = new App();
 
-        app.FibonacciM();
+        // app.FibonacciM();
+
+        app.PrimeNumbersM();
+
+    }
+
+    public void PrimeNumbersM(){
+        PrimeNumbersC primeNumbersC = new PrimeNumbersC();
+        int number = 15;
+        System.out.println("Prime number or not.\n" + number + " : " + primeNumbersC.IsPrimeNumber(number)); 
     }
 
     public void FibonacciM(){

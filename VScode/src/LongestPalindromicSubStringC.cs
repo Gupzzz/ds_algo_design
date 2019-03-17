@@ -13,8 +13,7 @@ public class LongestPalindromicSubStringC
     public int GetLongestPalindromicSubString(String str) { 
         int n = str.Length;   // get length of input string 
   
-        // table[i][j] will be false if substring str[i..j] 
-        // is not palindrome. 
+        // table[i][j] will be false if substring str[i..j] is not palindrome. 
         // Else table[i][j] will be true 
         Boolean[,] table = new Boolean[n,n]; 
   

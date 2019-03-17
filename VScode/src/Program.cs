@@ -36,11 +36,11 @@ namespace VScode
 
             // programObject.LengthOfLongestPalindromicSubStringM();
 
-            // programObject.LongestPalindromicSubStringM();  //Not yet working 
+            programObject.LongestPalindromicSubStringM();  //Not yet working 
 
             // Find the longest palindromic sub string
 
-            programObject.AllPossibleCombinationsOfElementsM();
+            // programObject.AllPossibleCombinationsOfElementsM();
             
             // Find duplicate in an array
 
@@ -57,7 +57,7 @@ namespace VScode
             }
 
         public void LongestPalindromicSubStringM(){
-            String str = "forgeeksskeegfor";
+            String str = "gaba";
             LongestPalindromicSubStringC longestPalindromicSubStringC = new LongestPalindromicSubStringC();
             int length = longestPalindromicSubStringC.GetLongestPalindromicSubString(str);
         }
