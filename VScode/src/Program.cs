@@ -24,7 +24,7 @@ namespace VScode
 
             // programObject.TreeTraversalsM();
 
-            // programObject.ConstructTreeFromTraversalsM();
+            programObject.ConstructTreeFromTraversalsM();
 
             // programObject.TowerOfHanoiM();
 
@@ -40,7 +40,7 @@ namespace VScode
 
             // programObject.AllPossibleCombinationsOfElementsM();
             
-            programObject.DuplicateInArrayM();
+            // programObject.DuplicateInArrayM();
 
             // Sum of k numbers equals n in a given array
 
@@ -246,8 +246,8 @@ namespace VScode
 
         public void ConstructTreeFromTraversalsM()
         {
-            char[] preOrderTraversal = { 'A', 'B', 'D', 'E', 'C' };
-            char[] inOrderTraversal = { 'D', 'B', 'E', 'A', 'C' };
+            char[] preOrderTraversal = { 'A', 'B', 'D', 'C' };
+            char[] inOrderTraversal = { 'D', 'B', 'A', 'C' };
             //char[] postOrderTraversal = { 'D', 'E', 'B', 'C', 'A' };
 
             ConstructTreeFromTraversal constructTreeFromTraversal = new ConstructTreeFromTraversal();
