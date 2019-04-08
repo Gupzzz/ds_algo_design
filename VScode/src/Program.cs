@@ -24,7 +24,7 @@ namespace VScode
 
             // programObject.TreeTraversalsM();
 
-            programObject.ConstructTreeFromTraversalsM();
+            // programObject.ConstructTreeFromTraversalsM();
 
             // programObject.TowerOfHanoiM();
 
@@ -42,8 +42,13 @@ namespace VScode
             
             // programObject.DuplicateInArrayM();
 
+    // To Do problems:
             // Sum of k numbers equals n in a given array
-
+            // Spiral printing in a binary tree
+            // Least common ancestor in a tree
+            // Diameter of a tree
+            // Addition in a linked list
+            // Solve the registration (user name) problem using Trie
         }
 
         public void DuplicateInArrayM(){
