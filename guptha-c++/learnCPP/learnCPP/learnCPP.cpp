@@ -3,12 +3,29 @@
 
 #include <iostream>
 
+#include "Person.h"
+#include "Tweeter.h"
+
+// using declarations
+using std::cout;
+using std::cin;
+using std::string;
+
 int main()
 {
-    std::cout << "Type your name" << std::endl;
+	//Session 2
+	//Person p1("Arun", "Guptha", 25);
+	{
+		Tweeter t1("Dhivya", "Mohan", 23, "@dvya");
+		string name = t1.getName();
+	}
+	//string name = p1.getName();
+
+	//Session 1
+    /*std::cout << "Type your name" << std::endl;
 	std::string name;
 	std::cin >> name;
-	std::cout << "Hello " << name << std::endl;
+	std::cout << "Hello " << name << std::endl;*/
 
 	return 0;
 }
