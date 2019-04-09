@@ -42,6 +42,8 @@ namespace VScode
             
             // programObject.DuplicateInArrayM();
 
+            programObject.SubSetSumEqualsNumArrayM();
+
     // To Do problems:
             // Sum of k numbers equals n in a given array
             // Spiral printing in a binary tree
@@ -49,8 +51,20 @@ namespace VScode
             // Diameter of a tree
             // Addition in a linked list
             // Solve the registration (user name) problem using Trie
+            // Detect islands in a graph
+            // Platforms required for trains based on arrival and departure timings
+            // A chapter dependent on another chapter
         }
 
+        public void SubSetSumEqualsNumArrayM(){
+            int[] values = {5, 100, 55, 72, 36, 40, 25};
+            int num = 187;
+            SubSetSumArrayC subSetArrayC = new SubSetSumArrayC();
+            bool result = subSetArrayC.SubSetSumEqualsSumArrayM(values, values.Length - 1,  num);
+            Console.WriteLine(result);
+            bool dpResult = subSetArrayC.isSubsetSum(values, values.Length - 1,  num);
+            Console.WriteLine(dpResult);
+        }
         public void DuplicateInArrayM(){
             DuplicateInArrayC duplicateInArrayC = new DuplicateInArrayC();
             int[] values = {1, 2, 1, 3};
@@ -66,7 +80,7 @@ namespace VScode
             }
 
         public void LongestPalindromicSubStringM(){
-            String str = "aba";
+            String str = "gdabad";
             LongestPalindromicSubStringC longestPalindromicSubStringC = new LongestPalindromicSubStringC();
             int length = longestPalindromicSubStringC.GetLongestPalindromicSubString(str);
         }
