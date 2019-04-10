@@ -42,10 +42,12 @@ namespace VScode
             
             // programObject.DuplicateInArrayM();
 
-            programObject.SubSetSumEqualsNumArrayM();
+            // programObject.SubSetSumEqualsNumArrayM();
+
+            programObject.SpiralPrintingOfBinaryTreeM();
+
 
     // To Do problems:
-            // Sum of k numbers equals n in a given array
             // Spiral printing in a binary tree
             // Least common ancestor in a tree
             // Diameter of a tree
@@ -56,6 +58,27 @@ namespace VScode
             // A chapter dependent on another chapter
         }
 
+        public void SpiralPrintingOfBinaryTreeM(){
+            NodeChar root = new NodeChar('A')
+            {
+                left = new NodeChar('B'),
+                right = new NodeChar('C')
+            };
+
+            root.left.left = new NodeChar('D')
+            {
+                left = new NodeChar('F'),
+                right = new NodeChar('G')
+            };
+
+            root.left.right = new NodeChar('E')
+            {
+                //left = new NodeChar('H'),
+                //right = new NodeChar('I')
+            };
+            SpiralPrintingOfBinaryTreeC spiralPrintingOfBinaryTreeC = new SpiralPrintingOfBinaryTreeC();
+            spiralPrintingOfBinaryTreeC.SpiralPrintingOfABinaryTree(root);
+        }
         public void SubSetSumEqualsNumArrayM(){
             int[] values = {5, 100, 55, 72, 36, 40, 25};
             int num = 187;
