@@ -44,11 +44,11 @@ namespace VScode
 
             // programObject.SubSetSumEqualsNumArrayM();
 
-            programObject.SpiralPrintingOfBinaryTreeM();
+            // programObject.SpiralPrintingOfBinaryTreeM();
 
+            programObject.LowestCommonAncestorBinaryTreeM();
 
     // To Do problems:
-            // Spiral printing in a binary tree
             // Least common ancestor in a tree
             // Diameter of a tree
             // Addition in a linked list
@@ -58,6 +58,27 @@ namespace VScode
             // A chapter dependent on another chapter
         }
 
+        public void LowestCommonAncestorBinaryTreeM(){
+            NodeChar root = new NodeChar('A')
+            {
+                left = new NodeChar('B'),
+                right = new NodeChar('C')
+            };
+
+            root.left.left = new NodeChar('D')
+            {
+                left = new NodeChar('F'),
+                right = new NodeChar('G')
+            };
+
+            root.left.right = new NodeChar('E')
+            {
+                //left = new NodeChar('H'),
+                //right = new NodeChar('I')
+            };
+            LowestCommonAncestorBinaryTreeC lowestCommonAncestorBinaryTreeC = new LowestCommonAncestorBinaryTreeC();
+            Console.WriteLine(lowestCommonAncestorBinaryTreeC.FindLowestCommonAncestorBinaryTree(root, 'F', 'E'));
+        }
         public void SpiralPrintingOfBinaryTreeM(){
             NodeChar root = new NodeChar('A')
             {
