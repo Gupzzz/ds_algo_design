@@ -46,10 +46,11 @@ namespace VScode
 
             // programObject.SpiralPrintingOfBinaryTreeM();
 
-            programObject.LowestCommonAncestorBinaryTreeM();
+            // programObject.LowestCommonAncestorBinaryTreeM();
+
+            programObject.DiameterOfBinaryTreeM();
 
     // To Do problems:
-            // Least common ancestor in a tree
             // Diameter of a tree
             // Addition in a linked list
             // Solve the registration (user name) problem using Trie
@@ -58,6 +59,27 @@ namespace VScode
             // A chapter dependent on another chapter
         }
 
+        public void DiameterOfBinaryTreeM(){
+            NodeChar root = new NodeChar('A')
+            {
+                left = new NodeChar('B'),
+                right = new NodeChar('C')
+            };
+
+            root.left.left = new NodeChar('D')
+            {
+                left = new NodeChar('F'),
+                right = new NodeChar('G')
+            };
+
+            root.left.right = new NodeChar('E')
+            {
+                //left = new NodeChar('H'),
+                //right = new NodeChar('I')
+            };
+            DiameterOfBinaryTreeC diameterOfBinaryTreeC = new DiameterOfBinaryTreeC();
+            Console.WriteLine(diameterOfBinaryTreeC.FindDiameterOfBinaryTree(root));
+        }
         public void LowestCommonAncestorBinaryTreeM(){
             NodeChar root = new NodeChar('A')
             {
