@@ -50,7 +50,8 @@ namespace VScode
 
             // programObject.DiameterOfBinaryTreeM();
 
-            programObject.PairOfNumbersEqualsSumM();
+            // programObject.PairOfNumbersEqualsSumM();
+            programObject.ProductArrayM();
 
 
     // To Do problems:
@@ -62,6 +63,11 @@ namespace VScode
             // A chapter dependent on another chapter
         }
 
+        public void ProductArrayM(){
+            ProductArray productArray = new ProductArray();
+            int[] values = {10, 3, 5, 6, 2};    // Product array: 180 600 360 300 900 
+            productArray.GenerateProductArray(values, values.Length);
+        }
         public void PairOfNumbersEqualsSumM(){
             PairOfNumbersEqualsSumC pairOfNumbersEqualsSumC = new PairOfNumbersEqualsSumC();
             int[] values = {10, 5, 60, 80, 45};
