@@ -48,7 +48,10 @@ namespace VScode
 
             // programObject.LowestCommonAncestorBinaryTreeM();
 
-            programObject.DiameterOfBinaryTreeM();
+            // programObject.DiameterOfBinaryTreeM();
+
+            programObject.PairOfNumbersEqualsSumM();
+
 
     // To Do problems:
             // Diameter of a tree
@@ -59,6 +62,11 @@ namespace VScode
             // A chapter dependent on another chapter
         }
 
+        public void PairOfNumbersEqualsSumM(){
+            PairOfNumbersEqualsSumC pairOfNumbersEqualsSumC = new PairOfNumbersEqualsSumC();
+            int[] values = {10, 5, 60, 80, 45};
+            pairOfNumbersEqualsSumC.FindPairOfNumbersEqualsSum(values, 70);
+        }
         public void DiameterOfBinaryTreeM(){
             NodeChar root = new NodeChar('A')
             {
