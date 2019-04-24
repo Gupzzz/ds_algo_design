@@ -51,7 +51,12 @@ namespace VScode
             // programObject.DiameterOfBinaryTreeM();
 
             // programObject.PairOfNumbersEqualsSumM();
-            programObject.ProductArrayM();
+            
+            // programObject.ProductArrayM();
+
+            // programObject.BSTFromPreorderTraversalM();
+
+            programObject.SerializeDeSerializeBinaryTreeM();
 
 
     // To Do problems:
@@ -63,6 +68,38 @@ namespace VScode
             // A chapter dependent on another chapter
         }
 
+        public void SerializeDeSerializeBinaryTreeM()
+        {
+            // var node = new NodeString("root", new NodeString("left", 
+            // new NodeString("left.left")), new NodeString("right"));
+            NodeString root = new NodeString("root")
+            {
+                left = new NodeString("left"),
+                right = new NodeString("right")
+            };
+
+            root.left.left = new NodeString("left.left"){};
+
+            SerializeDeSerializeBinaryTreeC serializeDeSerializeBinaryTree = new SerializeDeSerializeBinaryTreeC();
+            
+            var serialized = serializeDeSerializeBinaryTree.Serialize(root);
+
+            Console.WriteLine(serialized);
+            root = serializeDeSerializeBinaryTree.Deserialize(serialized);
+
+            Console.WriteLine(root.left.left.Value);
+        }
+
+        public void BSTFromPreorderTraversalM()
+        {
+            int[] preOrderTraversal = {10, 5, 1, 7, 40, 50};
+            BSTFromPreorderTraversalC bstFromPreorderTraversal = new BSTFromPreorderTraversalC();
+            NodeInt root = bstFromPreorderTraversal.ConstructBSTFromPreorderTraversal(preOrderTraversal, preOrderTraversal.Length);
+
+            TreeTraversals treeTraversals = new TreeTraversals();
+            treeTraversals.PreOrderTreeTraversal(root);
+
+        }
         public void ProductArrayM(){
             ProductArray productArray = new ProductArray();
             int[] values = {10, 3, 5, 6, 2};    // Product array: 180 600 360 300 900 
