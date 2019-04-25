@@ -39,7 +39,7 @@ namespace VScode
             // programObject.LongestPalindromicSubStringM(); 
 
             // programObject.AllPossibleCombinationsOfElementsM();
-            
+
             // programObject.DuplicateInArrayM();
 
             // programObject.SubSetSumEqualsNumArrayM();
@@ -51,15 +51,17 @@ namespace VScode
             // programObject.DiameterOfBinaryTreeM();
 
             // programObject.PairOfNumbersEqualsSumM();
-            
+
             // programObject.ProductArrayM();
 
             // programObject.BSTFromPreorderTraversalM();
 
-            programObject.SerializeDeSerializeBinaryTreeM();
+            // programObject.SerializeDeSerializeBinaryTreeM();
+
+            programObject.SmallestPositiveNumberM();
 
 
-    // To Do problems:
+            // To Do problems:
             // Diameter of a tree
             // Addition in a linked list
             // Solve the registration (user name) problem using Trie
@@ -67,7 +69,14 @@ namespace VScode
             // Platforms required for trains based on arrival and departure timings
             // A chapter dependent on another chapter
         }
-
+        public void SmallestPositiveNumberM()
+        {
+            int[] arr = { 0, 10, 2, -10, -20 };
+            int arr_size = arr.Length;
+            SmallestPositiveNumberC smallestPositiveNumberC = new SmallestPositiveNumberC();
+            int missing = smallestPositiveNumberC.findMissing(arr, arr_size);
+            Console.WriteLine("The smallest positive missing number is " + missing);
+        }
         public void SerializeDeSerializeBinaryTreeM()
         {
             // var node = new NodeString("root", new NodeString("left", 
@@ -78,10 +87,10 @@ namespace VScode
                 right = new NodeString("right")
             };
 
-            root.left.left = new NodeString("left.left"){};
+            root.left.left = new NodeString("left.left") { };
 
             SerializeDeSerializeBinaryTreeC serializeDeSerializeBinaryTree = new SerializeDeSerializeBinaryTreeC();
-            
+
             var serialized = serializeDeSerializeBinaryTree.Serialize(root);
 
             Console.WriteLine(serialized);
@@ -92,7 +101,7 @@ namespace VScode
 
         public void BSTFromPreorderTraversalM()
         {
-            int[] preOrderTraversal = {10, 5, 1, 7, 40, 50};
+            int[] preOrderTraversal = { 10, 5, 1, 7, 40, 50 };
             BSTFromPreorderTraversalC bstFromPreorderTraversal = new BSTFromPreorderTraversalC();
             NodeInt root = bstFromPreorderTraversal.ConstructBSTFromPreorderTraversal(preOrderTraversal, preOrderTraversal.Length);
 
@@ -100,17 +109,20 @@ namespace VScode
             treeTraversals.PreOrderTreeTraversal(root);
 
         }
-        public void ProductArrayM(){
+        public void ProductArrayM()
+        {
             ProductArray productArray = new ProductArray();
-            int[] values = {10, 3, 5, 6, 2};    // Product array: 180 600 360 300 900 
+            int[] values = { 10, 3, 5, 6, 2 };    // Product array: 180 600 360 300 900 
             productArray.GenerateProductArray(values, values.Length);
         }
-        public void PairOfNumbersEqualsSumM(){
+        public void PairOfNumbersEqualsSumM()
+        {
             PairOfNumbersEqualsSumC pairOfNumbersEqualsSumC = new PairOfNumbersEqualsSumC();
-            int[] values = {10, 5, 60, 80, 45};
+            int[] values = { 10, 5, 60, 80, 45 };
             pairOfNumbersEqualsSumC.FindPairOfNumbersEqualsSum(values, 70);
         }
-        public void DiameterOfBinaryTreeM(){
+        public void DiameterOfBinaryTreeM()
+        {
             NodeChar root = new NodeChar('A')
             {
                 left = new NodeChar('B'),
@@ -131,7 +143,8 @@ namespace VScode
             DiameterOfBinaryTreeC diameterOfBinaryTreeC = new DiameterOfBinaryTreeC();
             Console.WriteLine(diameterOfBinaryTreeC.FindDiameterOfBinaryTree(root));
         }
-        public void LowestCommonAncestorBinaryTreeM(){
+        public void LowestCommonAncestorBinaryTreeM()
+        {
             NodeChar root = new NodeChar('A')
             {
                 left = new NodeChar('B'),
@@ -152,7 +165,8 @@ namespace VScode
             LowestCommonAncestorBinaryTreeC lowestCommonAncestorBinaryTreeC = new LowestCommonAncestorBinaryTreeC();
             Console.WriteLine(lowestCommonAncestorBinaryTreeC.FindLowestCommonAncestorBinaryTree(root, 'F', 'E'));
         }
-        public void SpiralPrintingOfBinaryTreeM(){
+        public void SpiralPrintingOfBinaryTreeM()
+        {
             NodeChar root = new NodeChar('A')
             {
                 left = new NodeChar('B'),
@@ -173,35 +187,40 @@ namespace VScode
             SpiralPrintingOfBinaryTreeC spiralPrintingOfBinaryTreeC = new SpiralPrintingOfBinaryTreeC();
             spiralPrintingOfBinaryTreeC.SpiralPrintingOfABinaryTree(root);
         }
-        public void SubSetSumEqualsNumArrayM(){
-            int[] values = {5, 100, 55, 72, 36, 40, 25};
+        public void SubSetSumEqualsNumArrayM()
+        {
+            int[] values = { 5, 100, 55, 72, 36, 40, 25 };
             int num = 187;
             SubSetSumArrayC subSetArrayC = new SubSetSumArrayC();
-            bool result = subSetArrayC.SubSetSumEqualsSumArrayM(values, values.Length - 1,  num);
+            bool result = subSetArrayC.SubSetSumEqualsSumArrayM(values, values.Length - 1, num);
             Console.WriteLine(result);
-            bool dpResult = subSetArrayC.isSubsetSum(values, values.Length - 1,  num);
+            bool dpResult = subSetArrayC.isSubsetSum(values, values.Length - 1, num);
             Console.WriteLine(dpResult);
         }
-        public void DuplicateInArrayM(){
+        public void DuplicateInArrayM()
+        {
             DuplicateInArrayC duplicateInArrayC = new DuplicateInArrayC();
-            int[] values = {1, 2, 1, 3};
+            int[] values = { 1, 2, 1, 3 };
             duplicateInArrayC.FindDuplicateInArray(values);
         }
-        public void AllPossibleCombinationsOfElementsM(){
+        public void AllPossibleCombinationsOfElementsM()
+        {
             AllPossibleCombinationsOfElementsC allPossibleCombinationsOfElementsC = new AllPossibleCombinationsOfElementsC();
-            int []arr = {1, 2, 3, 4, 5}; 
-            int k = 5; 
-            int n = arr.Length; 
-            int []data = new int[k];
+            int[] arr = { 1, 2, 3, 4, 5 };
+            int k = 5;
+            int n = arr.Length;
+            int[] data = new int[k];
             allPossibleCombinationsOfElementsC.GetAllPossibleCombinationsOfElements(arr, data, 0, n - 1, 0, k);
-            }
+        }
 
-        public void LongestPalindromicSubStringM(){
+        public void LongestPalindromicSubStringM()
+        {
             String str = "gdabad";
             LongestPalindromicSubStringC longestPalindromicSubStringC = new LongestPalindromicSubStringC();
             int length = longestPalindromicSubStringC.GetLongestPalindromicSubString(str);
         }
-        public void LengthOfLongestPalindromicSubStringM(){
+        public void LengthOfLongestPalindromicSubStringM()
+        {
             LengthOfLongestPalindromicSubSequenceC longestPalindromicSubStringC = new LengthOfLongestPalindromicSubSequenceC();
             string inputString = "amadamkr";
             int subStringLength = longestPalindromicSubStringC.GetLengthOfLongestPalindromicSubSequenceM(inputString, 0, inputString.Length - 1);
@@ -213,7 +232,7 @@ namespace VScode
         public void SubArrayWithSumGreaterThanNumberM()
         {
             SubArrayWithSumGreaterThanNumberC subArrayWithSumGreaterThanNumberC = new SubArrayWithSumGreaterThanNumberC();
-            int[] arr = {1, 4, 45, 6, 0, 19};
+            int[] arr = { 1, 4, 45, 6, 0, 19 };
             int result = subArrayWithSumGreaterThanNumberC.SubArrayWithSumGreaterThanNumber(arr, 51);
             Console.WriteLine("Length is {0}", result);
         }
