@@ -58,7 +58,11 @@ namespace VScode
 
             // programObject.SerializeDeSerializeBinaryTreeM();
 
-            programObject.SmallestPositiveNumberM();
+            // programObject.SmallestPositiveNumberM();
+
+            // programObject.PossibleDecodingDP();
+
+            programObject.MaxSumNonAdjacentM();
 
 
             // To Do problems:
@@ -68,10 +72,27 @@ namespace VScode
             // Detect islands in a graph
             // Platforms required for trains based on arrival and departure timings
             // A chapter dependent on another chapter
+            // Highway banner
+            // Reverse words in a sentence
+            // Expression evaluation using bodmas, stacks
+            // Max subarray of adjacent numbers in an array
+        }
+        public void MaxSumNonAdjacentM()
+        {
+            int[] arr = new int[]{5, 5, 10, 100, 10, 5};
+            MaxSumNonAdjacentC maxSumNonAdjacentC = new MaxSumNonAdjacentC();
+            Console.Write(maxSumNonAdjacentC.FindMaxSumNonAdjacent(arr, arr.Length));
+        }
+        public void PossibleDecodingDP()
+        {
+            char[] digits = { '1', '2', '3', '4' };
+            int n = digits.Length;
+            PossibleDecodingDPC possibleDecodingDPC = new PossibleDecodingDPC();
+            Console.WriteLine("Count is " + possibleDecodingDPC.GetPossibleDecodingDP(digits, n));
         }
         public void SmallestPositiveNumberM()
         {
-            int[] arr = { 0, 10, 2, -10, -20 };
+            int[] arr = { 0, 10, 2, 1, -10, -20 };
             int arr_size = arr.Length;
             SmallestPositiveNumberC smallestPositiveNumberC = new SmallestPositiveNumberC();
             int missing = smallestPositiveNumberC.findMissing(arr, arr_size);
