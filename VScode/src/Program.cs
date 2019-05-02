@@ -62,7 +62,9 @@ namespace VScode
 
             // programObject.PossibleDecodingDP();
 
-            programObject.MaxSumNonAdjacentM();
+            // programObject.MaxSumNonAdjacentM();
+
+            programObject.AutoCompletionUsingTrieM();
 
 
             // To Do problems:
@@ -76,6 +78,21 @@ namespace VScode
             // Reverse words in a sentence
             // Expression evaluation using bodmas, stacks
             // Max subarray of adjacent numbers in an array
+        }
+        public void AutoCompletionUsingTrieM(){
+            Trie trie = new Trie();
+
+			trie.Add("dog");
+			trie.Add("deer");
+			trie.Add("deal");
+
+			var results = trie.Search("de");
+
+			foreach (var item in results)
+			{
+				Console.WriteLine(item);
+			}
+
         }
         public void MaxSumNonAdjacentM()
         {
