@@ -64,7 +64,9 @@ namespace VScode
 
             // programObject.MaxSumNonAdjacentM();
 
-            programObject.AutoCompletionUsingTrieM();
+            // programObject.AutoCompletionUsingTrieM();
+
+            programObject.ClimbingStaircaseM();
 
 
             // To Do problems:
@@ -78,6 +80,13 @@ namespace VScode
             // Reverse words in a sentence
             // Expression evaluation using bodmas, stacks
             // Max subarray of adjacent numbers in an array
+        }
+
+        public void ClimbingStaircaseM(){
+            ClimbingStaircaseC climbingStaircaseC = new ClimbingStaircaseC();
+            int n = 4;
+            int[] steps = {1, 3, 4};
+            Console.WriteLine(climbingStaircaseC.NoOfWaysToClimdAStaircase(0, n, steps));
         }
         public void AutoCompletionUsingTrieM(){
             Trie trie = new Trie();
