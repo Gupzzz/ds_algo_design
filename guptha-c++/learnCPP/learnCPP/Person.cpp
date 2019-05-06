@@ -3,12 +3,13 @@
 #include <iostream>
 using std::cout;
 using std::cin;
+using std::string;
 
-std::string Person::getName() {
+string Person::getName() {
 	return firstname + " " + lastname;
 }
 
-Person::Person(std::string first, std::string last, int arbitrary)
+Person::Person(string first, string last, int arbitrary)
 	:
 	firstname(first),
 	lastname(last),

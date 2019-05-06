@@ -66,7 +66,8 @@ namespace VScode
 
             // programObject.AutoCompletionUsingTrieM();
 
-            programObject.ClimbingStaircaseM();
+            // programObject.ClimbingStaircaseM();
+            programObject.LongestDistinctSubstringM();
 
 
             // To Do problems:
@@ -80,6 +81,11 @@ namespace VScode
             // Reverse words in a sentence
             // Expression evaluation using bodmas, stacks
             // Max subarray of adjacent numbers in an array
+        }
+        public void LongestDistinctSubstringM(){
+            LongestDistinctSubstringC longestDistinctSubstringC = new LongestDistinctSubstringC();
+            String str = "aabacbebebe";
+            longestDistinctSubstringC.GetLongestPalindromicSubString(str, 3);
         }
 
         public void ClimbingStaircaseM(){
