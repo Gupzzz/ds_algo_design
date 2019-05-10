@@ -67,14 +67,15 @@ namespace VScode
             // programObject.AutoCompletionUsingTrieM();
 
             // programObject.ClimbingStaircaseM();
-            programObject.LongestDistinctSubstringM();
+
+            // programObject.LongestDistinctSubstringM();
+
+            // programObject.IslandsInGraphM();
 
 
             // To Do problems:
-            // Diameter of a tree
             // Addition in a linked list
             // Solve the registration (user name) problem using Trie
-            // Detect islands in a graph
             // Platforms required for trains based on arrival and departure timings
             // A chapter dependent on another chapter
             // Highway banner
@@ -82,36 +83,51 @@ namespace VScode
             // Expression evaluation using bodmas, stacks
             // Max subarray of adjacent numbers in an array
         }
-        public void LongestDistinctSubstringM(){
+
+        public void IslandsInGraphM()
+        {
+            IslandsInGraphC islandsInGraphC = new IslandsInGraphC();
+            int[,] M = new int[,] {{1, 1, 0, 0, 0},
+                               {0, 1, 0, 0, 1},
+                               {1, 0, 0, 1, 1},
+                               {0, 0, 0, 0, 0},
+                               {1, 0, 1, 0, 1}};
+            Console.Write("Number of islands is: " + islandsInGraphC.countIslands(M));
+        }
+
+        public void LongestDistinctSubstringM()
+        {
             LongestDistinctSubstringC longestDistinctSubstringC = new LongestDistinctSubstringC();
             String str = "aabacbebebe";
             longestDistinctSubstringC.GetLongestPalindromicSubString(str, 3);
         }
 
-        public void ClimbingStaircaseM(){
+        public void ClimbingStaircaseM()
+        {
             ClimbingStaircaseC climbingStaircaseC = new ClimbingStaircaseC();
             int n = 4;
-            int[] steps = {1, 3, 4};
+            int[] steps = { 1, 3, 4 };
             Console.WriteLine(climbingStaircaseC.NoOfWaysToClimdAStaircase(0, n, steps));
         }
-        public void AutoCompletionUsingTrieM(){
+        public void AutoCompletionUsingTrieM()
+        {
             Trie trie = new Trie();
 
-			trie.Add("dog");
-			trie.Add("deer");
-			trie.Add("deal");
+            trie.Add("dog");
+            trie.Add("deer");
+            trie.Add("deal");
 
-			var results = trie.Search("de");
+            var results = trie.Search("de");
 
-			foreach (var item in results)
-			{
-				Console.WriteLine(item);
-			}
+            foreach (var item in results)
+            {
+                Console.WriteLine(item);
+            }
 
         }
         public void MaxSumNonAdjacentM()
         {
-            int[] arr = new int[]{5, 5, 10, 100, 10, 5};
+            int[] arr = new int[] { 5, 5, 10, 100, 10, 5 };
             MaxSumNonAdjacentC maxSumNonAdjacentC = new MaxSumNonAdjacentC();
             Console.Write(maxSumNonAdjacentC.FindMaxSumNonAdjacent(arr, arr.Length));
         }

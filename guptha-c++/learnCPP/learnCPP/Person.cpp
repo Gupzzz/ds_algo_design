@@ -15,14 +15,14 @@ Person::Person(string first, string last, int arbitrary)
 	lastname(last),
 	arbitrarynumber(arbitrary)
 {
-	cout << "constructing person " << getName() << std::endl;
+	cout << "constructing parametrized Person " << getName() << std::endl;
 }
 
 Person::Person()
 	:
 	arbitrarynumber(0)
 {
-	cout << "constructing person " << getName() << std::endl;
+	cout << "constructing Empty Person " << getName() << std::endl;
 }
 
 Person::~Person()

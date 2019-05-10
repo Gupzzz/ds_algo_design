@@ -8,6 +8,7 @@ using std::cin;
 
 Tweeter::Tweeter()
 {
+	cout << "constructing Empty Tweeter " << std::endl;
 }
 
 Tweeter::Tweeter(std::string first, std::string last, int arbitrary, std::string handle)
@@ -15,7 +16,7 @@ Tweeter::Tweeter(std::string first, std::string last, int arbitrary, std::string
 	Person(first, last, arbitrary),
 	twitterhandle(handle)
 {
-	cout << "constructing tweeter " << getName() << " Handle: " << twitterhandle << std::endl;
+	cout << "constructing Tweeter " << getName() << " Handle: " << twitterhandle << std::endl;
 }
 
 
