@@ -27,6 +27,19 @@ int main()
 	std::cin >> name;
 	std::cout << "Hello " << name << std::endl;*/
 
+	enum Status {
+		Pending,
+		Approved
+	};
+
+	enum class FileError {
+		Approved,
+		AttributeError
+	};
+
+	Status status = Pending;
+	FileError fe = FileError::Approved;
+
 	return 0;
 }
 
