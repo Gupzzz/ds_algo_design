@@ -4,6 +4,7 @@
 //using declarations
 using std::cout;
 using std::cin;
+using std::string;
 
 
 Tweeter::Tweeter()
@@ -11,7 +12,7 @@ Tweeter::Tweeter()
 	cout << "constructing Empty Tweeter " << std::endl;
 }
 
-Tweeter::Tweeter(std::string first, std::string last, int arbitrary, std::string handle)
+Tweeter::Tweeter(string first, string last, int arbitrary, string handle)
 	:
 	Person(first, last, arbitrary),
 	twitterhandle(handle)

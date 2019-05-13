@@ -72,11 +72,12 @@ namespace VScode
 
             // programObject.IslandsInGraphM();
 
+            programObject.MinPlatformsRequiredM();
+
 
             // To Do problems:
             // Addition in a linked list
             // Solve the registration (user name) problem using Trie
-            // Platforms required for trains based on arrival and departure timings
             // A chapter dependent on another chapter
             // Highway banner
             // Reverse words in a sentence
@@ -84,6 +85,14 @@ namespace VScode
             // Max subarray of adjacent numbers in an array
         }
 
+        public void MinPlatformsRequiredM()
+        {
+            int[] arr = {900, 940, 950, 1100, 1500, 1800};
+            int[] dep = {910, 1200, 1120, 1130, 1900, 2000};
+            int n = arr.Length;
+            MinPlatformsRequiredC minPlatformsRequiredC = new MinPlatformsRequiredC();
+            Console.Write("Minimum Number of " + " Platforms Required = " + minPlatformsRequiredC.findPlatform(arr, dep, n));
+        }
         public void IslandsInGraphM()
         {
             IslandsInGraphC islandsInGraphC = new IslandsInGraphC();
