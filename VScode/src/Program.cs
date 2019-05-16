@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace VScode
 {
@@ -72,7 +73,13 @@ namespace VScode
 
             // programObject.IslandsInGraphM();
 
-            programObject.MinPlatformsRequiredM();
+            // programObject.MinPlatformsRequiredM();
+
+            // programObject.NQueenProblemM();
+
+            // programObject.FindItineraryM();
+
+            programObject.SudocuM();
 
 
             // To Do problems:
@@ -85,10 +92,53 @@ namespace VScode
             // Max subarray of adjacent numbers in an array
         }
 
+        public void SudocuM(){
+            SudocuC sudocuC= new SudocuC();
+            int[,] board = new int[,]
+            {
+            {3, 0, 6, 5, 0, 8, 4, 0, 0},
+            {5, 2, 0, 0, 0, 0, 0, 0, 0},
+            {0, 8, 7, 0, 0, 0, 0, 3, 1},
+            {0, 0, 3, 0, 1, 0, 0, 8, 0},
+            {9, 0, 0, 8, 6, 3, 0, 0, 5},
+            {0, 5, 0, 0, 9, 0, 6, 0, 0},
+            {1, 3, 0, 0, 0, 0, 2, 5, 0},
+            {0, 0, 0, 0, 0, 0, 0, 7, 4},
+            {0, 0, 5, 2, 0, 6, 3, 0, 0}
+            };
+            int N = board.GetLength(0);
+
+            if (sudocuC.solveSudoku(board, N))
+            {
+                sudocuC.print(board, N); // print solution 
+            }
+            else
+            {
+                Console.Write("No solution");
+            }
+        }
+
+        public void FindItineraryM()
+        {
+            FindItineraryC findItineraryC = new FindItineraryC();
+            Hashtable dataSet = new Hashtable();
+            dataSet.Add("Chennai", "Banglore");
+            dataSet.Add("Bombay", "Delhi");
+            dataSet.Add("Goa", "Chennai");
+            dataSet.Add("Delhi", "Goa");
+
+            findItineraryC.FindItinerary(dataSet);
+        }
+        public void NQueenProblemM()
+        {
+            NQueenProblemC nQueenProblemC = new NQueenProblemC();
+            nQueenProblemC.solveNQ();
+
+        }
         public void MinPlatformsRequiredM()
         {
-            int[] arr = {900, 940, 950, 1100, 1500, 1800};
-            int[] dep = {910, 1200, 1120, 1130, 1900, 2000};
+            int[] arr = { 900, 940, 950, 1100, 1500, 1800 };
+            int[] dep = { 910, 1200, 1120, 1130, 1900, 2000 };
             int n = arr.Length;
             MinPlatformsRequiredC minPlatformsRequiredC = new MinPlatformsRequiredC();
             Console.Write("Minimum Number of " + " Platforms Required = " + minPlatformsRequiredC.findPlatform(arr, dep, n));
