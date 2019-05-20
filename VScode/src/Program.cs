@@ -79,7 +79,9 @@ namespace VScode
 
             // programObject.FindItineraryM();
 
-            programObject.SudocuM();
+            // programObject.SudocuM();
+
+            programObject.SlidingWindowMaximumM();
 
 
             // To Do problems:
@@ -92,8 +94,17 @@ namespace VScode
             // Max subarray of adjacent numbers in an array
         }
 
-        public void SudocuM(){
-            SudocuC sudocuC= new SudocuC();
+        public void SlidingWindowMaximumM()
+        {
+            SlidingWindowMaximumC slidingWindowMaximumC = new SlidingWindowMaximumC();
+            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int k = 3;
+            slidingWindowMaximumC.printKMax(arr, arr.Length, k);
+        }
+
+        public void SudocuM()
+        {
+            SudocuC sudocuC = new SudocuC();
             int[,] board = new int[,]
             {
             {3, 0, 6, 5, 0, 8, 4, 0, 0},
