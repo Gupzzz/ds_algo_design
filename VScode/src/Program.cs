@@ -81,7 +81,13 @@ namespace VScode
 
             // programObject.SudocuM();
 
-            programObject.SlidingWindowMaximumM();
+            // programObject.SlidingWindowMaximumM();
+
+            // programObject.PaintingFenceM();
+
+            // programObject.IntersectionPointLinkedListM();
+
+            programObject.WordBreakM();
 
 
             // To Do problems:
@@ -94,6 +100,36 @@ namespace VScode
             // Max subarray of adjacent numbers in an array
         }
 
+        public void WordBreakM(){
+            WordBreakC WordBreakC = new WordBreakC();
+            WordBreakC.wordBreak("iloveicecreamandmango");
+            Console.WriteLine("\n\n");
+            WordBreakC.wordBreak("ilovesamsungmobile");
+        }
+
+        public void IntersectionPointLinkedListM(){
+            LinkedList list = new LinkedList();
+
+            // creating first linked list  
+            list.head1 = new LinkedListNode(3);
+            list.head1.next = new LinkedListNode(6);
+            list.head1.next.next = new LinkedListNode(15);
+            list.head1.next.next.next = new LinkedListNode(15);
+            list.head1.next.next.next.next = new LinkedListNode(30);
+
+            // creating second linked list  
+            list.head2 = new LinkedListNode(10);
+            list.head2.next = new LinkedListNode(15);
+            list.head2.next.next = new LinkedListNode(30);
+
+            Console.WriteLine("The node of intersection is " + list.getNode());
+        }
+        public void PaintingFenceM()
+        {
+            PaintingFenceC PaintingFenceC = new PaintingFenceC();
+            int n = 3, k = 2;
+            Console.Write(PaintingFenceC.countWays(n, k));
+        }
         public void SlidingWindowMaximumM()
         {
             SlidingWindowMaximumC slidingWindowMaximumC = new SlidingWindowMaximumC();
