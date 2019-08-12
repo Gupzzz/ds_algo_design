@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arunguptha/my-personal-git-repos/myCodingExercises/VScode/VScode.csproj",
+      "projectUniqueName": "/Users/arunguptha/my-personal-git-repos/myCodingExercises/C#/VScode/VScode.csproj",
       "projectName": "VScode",
-      "projectPath": "/Users/arunguptha/my-personal-git-repos/myCodingExercises/VScode/VScode.csproj",
+      "projectPath": "/Users/arunguptha/my-personal-git-repos/myCodingExercises/C#/VScode/VScode.csproj",
       "packagesPath": "/Users/arunguptha/.nuget/packages/",
-      "outputPath": "/Users/arunguptha/my-personal-git-repos/myCodingExercises/VScode/obj/",
+      "outputPath": "/Users/arunguptha/my-personal-git-repos/myCodingExercises/C#/VScode/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
