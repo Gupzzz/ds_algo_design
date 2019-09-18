@@ -69,7 +69,7 @@ namespace VScode
 
             // programObject.ClimbingStaircaseM();
 
-            // programObject.LongestDistinctSubstringM();
+            programObject.LongestDistinctSubstringM();
 
             // programObject.IslandsInGraphM();
 
@@ -87,7 +87,7 @@ namespace VScode
 
             // programObject.IntersectionPointLinkedListM();
 
-            programObject.WordBreakM();
+            // programObject.WordBreakM();
 
 
             // To Do problems:
