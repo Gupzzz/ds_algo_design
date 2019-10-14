@@ -69,7 +69,7 @@ namespace VScode
 
             // programObject.ClimbingStaircaseM();
 
-            programObject.LongestDistinctSubstringM();
+            // programObject.LongestDistinctSubstringM();
 
             // programObject.IslandsInGraphM();
 
@@ -89,6 +89,8 @@ namespace VScode
 
             // programObject.WordBreakM();
 
+            programObject.InfixExpressionEvaluationM();
+
 
             // To Do problems:
             // Addition in a linked list
@@ -98,6 +100,11 @@ namespace VScode
             // Reverse words in a sentence
             // Expression evaluation using bodmas, stacks
             // Max subarray of adjacent numbers in an array
+        }
+
+        public void InfixExpressionEvaluationM(){
+            InfixExpressionEvaluation infixExpressionEvaluation = new InfixExpressionEvaluation();
+            Console.WriteLine(infixExpressionEvaluation.evaluate("5 + 3 * 100 "));
         }
 
         public void WordBreakM(){
