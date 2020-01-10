@@ -1,4 +1,0 @@
-Fibonacci series (Find the nth fibonacci number in the series)
-	Iterative solution -> O(n)
-	Recursive solution -> O(2^n)
-	Recursive using memoization -> O(n) + O(n) space complexity
