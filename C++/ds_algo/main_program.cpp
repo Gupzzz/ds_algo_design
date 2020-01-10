@@ -3,14 +3,16 @@
 #include <string>
 
 using namespace std;
-
-int main()
+namespace ds_algo
 {
-    vector<string> msg{ "Arun", "C++", "Guptha", "from", "VS Code", "and the C++ extension!" };
-    
-    for (const string& word : msg)
+    int main()
     {
-        cout << word << " ";
+        vector<string> msg{ "Arun", "C++", "Guptha", "from", "VS Code", "and the C++ extension!" };
+        
+        for (const string& word : msg)
+        {
+            cout << word << " ";
+        }
+        cout << endl;
     }
-    cout << endl;
 }
