@@ -16,3 +16,5 @@ C#/VScode/bin/
 /C++/ds_algo/.vs/ds_algo/v16
 *.exe
 *.ilk
+*.out
+*.plist
