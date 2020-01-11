@@ -18,3 +18,4 @@ C#/VScode/bin/
 *.ilk
 *.out
 *.plist
+C#/.DS_Store

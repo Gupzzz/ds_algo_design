@@ -28,14 +28,14 @@ namespace algoexpert
     {
         // Average: O(log(n)) time | O(1) space
         // Worst: O(n) time | O(1) space
-        public static int FindClosestValueInBst(BST tree, int target)
+        public static int FindClosestValueInBst(ClosestValueBST tree, int target)
         {
             return FindClosestValueInBst(tree, target, Int32.MaxValue);
         }
 
-        public static int FindClosestValueInBst(BST tree, int target, double closest)
+        public static int FindClosestValueInBst(ClosestValueBST tree, int target, double closest)
         {
-            BST currentNode = tree;
+            ClosestValueBST currentNode = tree;
             while (currentNode != null)
             {
                 if (Math.Abs(target - closest) > Math.Abs(target - currentNode.value))
@@ -58,13 +58,13 @@ namespace algoexpert
             return (int)closest;
         }
 
-        public class BST
+        public class ClosestValueBST
         {
             public int value;
-            public BST left;
-            public BST right;
+            public ClosestValueBST left;
+            public ClosestValueBST right;
 
-            public BST(int value)
+            public ClosestValueBST(int value)
             {
                 this.value = value;
             }
