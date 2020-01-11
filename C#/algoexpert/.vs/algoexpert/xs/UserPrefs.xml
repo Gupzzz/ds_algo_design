@@ -1,7 +1,8 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D345A3C5-944F-43A8-9D4E-7DA5FE088E4C}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/TwoNumberSum.cs">
     <Files>
-      <File FileName="Program.cs" Line="11" Column="29" />
+      <File FileName="Program.cs" Line="17" Column="1" />
+      <File FileName="src/TwoNumberSum.cs" Line="21" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
