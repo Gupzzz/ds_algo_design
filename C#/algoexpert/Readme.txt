@@ -16,5 +16,4 @@ To copy algoexpert solution from their website:
 
 Errors:
     1.  If there are swiggly line under using namespace std; (C++ specific)
-        Delete the Algoexpert copyright comment 
-        i.e // Copyright © 2020 AlgoExpert, LLC. All rights reserved.
+        Do a backspace once
