@@ -1,5 +1,5 @@
-To copy algoexpert question along withsolution from their website:
-    1.  Select all the lines of algoexpert's solution (leave out the copyright line)
+To copy algoexpert question along with solution from their website:
+    1.  Select all the lines of algoexpert's solution
     2.  Press Ctrl + A
     3.  Right click and select Copy
     4.  Select all the lines in the question selection
@@ -17,3 +17,8 @@ To copy algoexpert solution from their website:
 Errors:
     1.  If there are swiggly line under using namespace std; (C++ specific)
         Do a backspace once
+
+Template:
+namespace algoexpert
+{
+}
