@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace VScode
+namespace general
 {
 	public class Trie
 	{

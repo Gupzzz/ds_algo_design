@@ -1,6 +1,6 @@
 using System;
 
-namespace VScode
+namespace general
 {
     // https://www.geeksforgeeks.org/sudoku-backtracking-7/
     class SudocuC

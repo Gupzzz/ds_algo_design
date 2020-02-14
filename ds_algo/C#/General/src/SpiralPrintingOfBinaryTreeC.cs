@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace VScode
+namespace general
 {
     class SpiralPrintingOfBinaryTreeC
     {

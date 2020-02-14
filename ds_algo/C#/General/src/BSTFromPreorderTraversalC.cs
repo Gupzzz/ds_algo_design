@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace VScode
+namespace general
 {
     class BSTFromPreorderTraversalC
     {

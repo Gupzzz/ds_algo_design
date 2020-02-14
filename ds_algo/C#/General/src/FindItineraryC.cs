@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace VScode
+namespace general
 {
     // https://www.geeksforgeeks.org/find-itinerary-from-a-given-list-of-tickets/
     public class FindItineraryC

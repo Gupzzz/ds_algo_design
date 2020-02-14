@@ -1,5 +1,5 @@
 using System;
-namespace VScode
+namespace general
 {
     // https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/
     public class LinkedListNode

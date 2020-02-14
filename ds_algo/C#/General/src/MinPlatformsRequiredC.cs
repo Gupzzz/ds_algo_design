@@ -1,6 +1,6 @@
 using System;
 
-namespace VScode
+namespace general
 {
     // https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
     class MinPlatformsRequiredC

@@ -1,4 +1,4 @@
-namespace VScode
+namespace general
 {
     class LengthOfLongestPalindromicSubSequenceC
     {

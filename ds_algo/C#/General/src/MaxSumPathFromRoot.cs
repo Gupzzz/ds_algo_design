@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 //Given a tree with non-negative node values, find the maximum cost
 // of a path starting from the root node.
-namespace VScode
+namespace general
 {
     public class MaxPathFromRoot
     {

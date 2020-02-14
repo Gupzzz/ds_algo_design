@@ -1,5 +1,5 @@
 using System;
-namespace VScode
+namespace general
 {
     class SmallestPositiveNumberC
     {

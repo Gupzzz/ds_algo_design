@@ -1,6 +1,6 @@
 using System;
 
-namespace VScode
+namespace general
 {
     // https://www.geeksforgeeks.org/find-the-longest-substring-with-k-unique-characters-in-a-given-string/
     class LongestDistinctSubstringC

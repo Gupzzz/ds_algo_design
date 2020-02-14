@@ -1,5 +1,5 @@
 using System;
-namespace VScode
+namespace general
 {
     // https://www.geeksforgeeks.org/printing-solutions-n-queen-problem/
     public class NQueenProblemC

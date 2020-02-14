@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 // Root to leaf path sum equal to a given number
 // https://www.geeksforgeeks.org/root-to-leaf-path-sum-equal-to-a-given-number/
-namespace VScode
+namespace general
 {
     public class RootToLeafSum
     {

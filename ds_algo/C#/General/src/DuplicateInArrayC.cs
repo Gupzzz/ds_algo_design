@@ -1,6 +1,6 @@
 using System;
 
-namespace VScode
+namespace general
 {
     public class DuplicateInArrayC{
         // Assuming all the input values are positive

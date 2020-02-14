@@ -1,5 +1,5 @@
 using System;
-namespace VScode
+namespace general
 {
     // https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
     public class LongestPalindromicSubStringC

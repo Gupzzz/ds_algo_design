@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 // https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/
-namespace VScode
+namespace general
 {
     class PairOfNumbersEqualsSumC
     {
