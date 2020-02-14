@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace VScode
+namespace general
 {
     class Program
     {
@@ -600,3 +600,4 @@ namespace VScode
 
     }
 }
+

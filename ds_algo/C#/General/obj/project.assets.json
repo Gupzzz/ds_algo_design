@@ -1,37 +1,41 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\arguptha\\.nuget\\packages\\": {}
+    "C:\\Users\\arguptha\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\my_personal_git_repos\\myCodingExercises\\C#\\VScode\\VScode.csproj",
-      "projectName": "VScode",
-      "projectPath": "C:\\my_personal_git_repos\\myCodingExercises\\C#\\VScode\\VScode.csproj",
+      "projectUniqueName": "C:\\Users\\arguptha\\my_personal_git_repos\\ds_algo_design\\ds_algo\\C#\\general\\general.csproj",
+      "projectName": "general",
+      "projectPath": "C:\\Users\\arguptha\\my_personal_git_repos\\ds_algo_design\\ds_algo\\C#\\general\\general.csproj",
       "packagesPath": "C:\\Users\\arguptha\\.nuget\\packages\\",
-      "outputPath": "C:\\my_personal_git_repos\\myCodingExercises\\C#\\VScode\\obj\\",
+      "outputPath": "C:\\Users\\arguptha\\my_personal_git_repos\\ds_algo_design\\ds_algo\\C#\\general\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\arguptha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "netcoreapp3.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp3.0": {
           "projectReferences": {}
         }
       },
@@ -42,7 +46,7 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "netcoreapp3.0": {
         "imports": [
           "net461",
           "net462",
@@ -58,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
