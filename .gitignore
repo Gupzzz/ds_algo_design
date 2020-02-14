@@ -10,9 +10,15 @@ VScode/.vs/
 dhivya-java/my-java-problem-solving/bin
 C#/VScode/obj/
 C#/VScode/bin/
-C++/ds_algo/Debug
+C++/ds_algo/Debug/
 *.obj
 *.pdb
-C++/ds_algo/.vs/ds_algo/v16
+C++/ds_algo/.vs/ds_algo/v16/
 *.exe
 *.ilk
+*.out
+*.plist
+*.dll
+C#/.DS_Store
+C#/algoexpert/bin/
+C#/algoexpert/obj/

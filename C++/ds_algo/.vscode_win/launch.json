@@ -5,22 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(lldb) Launch",
-            "type": "cppdbg",
+            "name": "cl.exe build and debug active file",
+            "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/main_program.out",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "lldb",
-            "miDebuggerPath": "/Applications/Xcode_10.3.app/Contents/Developer/usr/bin/lldb-mi",
-            "logging": {
-                "trace": true,
-                "traceResponse": true,
-                "engineLogging": true
-              }
+            "preLaunchTask": "cl.exe build active file"
         }
     ]
 }

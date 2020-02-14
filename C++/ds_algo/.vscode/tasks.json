@@ -1,17 +1,22 @@
 {
+    "version": "2.0.0",
     "tasks": [
-        {
-            "type": "shell",
-            "label": "cl.exe build active file",
-            "command": "cl.exe",
-            "args": [
-                "/Zi",
-                "/EHsc",
-                "/Fe:",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "${file}"
-            ]
+      {
+        "label": "Build with Clang",
+        "type": "shell",
+        "command": "clang++",
+        "args": [
+          "-std=c++17",
+          "-stdlib=libc++",
+          "main_program.cpp",
+          "-o",
+          "main_program.out",
+          "--debug"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
         }
-    ],
-    "version": "2.0.0"
-}
+      }
+    ]
+  }
