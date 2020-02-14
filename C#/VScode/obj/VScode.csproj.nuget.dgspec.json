@@ -1,32 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arunguptha/my-personal-git-repos/myCodingExercises/C#/VScode/VScode.csproj": {}
+    "C:\\my_personal_git_repos\\myCodingExercises\\C#\\VScode\\VScode.csproj": {}
   },
   "projects": {
-    "/Users/arunguptha/my-personal-git-repos/myCodingExercises/C#/VScode/VScode.csproj": {
+    "C:\\my_personal_git_repos\\myCodingExercises\\C#\\VScode\\VScode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arunguptha/my-personal-git-repos/myCodingExercises/C#/VScode/VScode.csproj",
+        "projectUniqueName": "C:\\my_personal_git_repos\\myCodingExercises\\C#\\VScode\\VScode.csproj",
         "projectName": "VScode",
-        "projectPath": "/Users/arunguptha/my-personal-git-repos/myCodingExercises/C#/VScode/VScode.csproj",
-        "packagesPath": "/Users/arunguptha/.nuget/packages/",
-        "outputPath": "/Users/arunguptha/my-personal-git-repos/myCodingExercises/C#/VScode/obj/",
+        "projectPath": "C:\\my_personal_git_repos\\myCodingExercises\\C#\\VScode\\VScode.csproj",
+        "packagesPath": "C:\\Users\\arguptha\\.nuget\\packages\\",
+        "outputPath": "C:\\my_personal_git_repos\\myCodingExercises\\C#\\VScode\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/arunguptha/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\arguptha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -37,20 +36,23 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.1": {
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

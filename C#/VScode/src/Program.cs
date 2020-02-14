@@ -104,7 +104,7 @@ namespace VScode
 
         public void InfixExpressionEvaluationM(){
             InfixExpressionEvaluation infixExpressionEvaluation = new InfixExpressionEvaluation();
-            Console.WriteLine(infixExpressionEvaluation.evaluate("5 + 3 * 100 "));
+            Console.WriteLine(infixExpressionEvaluation.evaluate("55 + 3 * 100 "));
         }
 
         public void WordBreakM(){
