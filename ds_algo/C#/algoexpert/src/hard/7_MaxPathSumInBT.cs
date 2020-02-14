@@ -57,18 +57,6 @@ namespace algoexpert
             return new List<int>(){
                    maxSumAsBranch, maxPathSum
         };
-        }
-
-        public class BinaryTree
-        {
-            public int value;
-            public BinaryTree left;
-            public BinaryTree right;
-
-            public BinaryTree(int value)
-            {
-                this.value = value;
-            }
-        }
+    }
     }
 }
