@@ -17,7 +17,7 @@ namespace general
 
             // programObject.SubstringOccurranceInStringM();
 
-            programObject.FibonacciM();
+            // programObject.FibonacciM();
 
             // programObject.BinarySearchM();
 
@@ -91,6 +91,9 @@ namespace general
 
             // programObject.InfixExpressionEvaluationM();
 
+            // programObject.SortedSquaredArrayM();
+
+            programObject.rotatingMatrixM();
 
             // To Do problems:
             // Addition in a linked list
@@ -100,6 +103,35 @@ namespace general
             // Reverse words in a sentence
             // Expression evaluation using bodmas, stacks
             // Max subarray of adjacent numbers in an array
+        }
+
+        public void rotatingMatrixM(){
+            RotatingMatrix rotatingMatrix = new RotatingMatrix();
+            int [,] input = new int[,] {{ 1, 2, 3 }, { 4, 5, 6 }, {7, 8, 9}};
+            for (int i = 0; i < input.GetLength(0); i++) {
+                for (int j = 0; j < input.GetLength(1); j++) {
+                    Console.Write(input[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine("\n\n\n");
+
+            int[,] result = rotatingMatrix.execute(input);
+            for (int i = 0; i < result.GetLength(0); i++) {
+                for (int j = 0; j < result.GetLength(1); j++) {
+                    Console.Write(result[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public void SortedSquaredArrayM(){
+            SortedSquaredArray sortedSquaredArray = new SortedSquaredArray();
+            int[] result = sortedSquaredArray.run(new int[] {-9, -7, -5, -2});
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
         }
 
         public void InfixExpressionEvaluationM(){
