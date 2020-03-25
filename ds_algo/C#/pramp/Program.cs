@@ -4,9 +4,9 @@ namespace pramp
 {
     public partial class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            IslandCount_();
+            _IslandCount_();
             Console.WriteLine("Test");
         }
     }

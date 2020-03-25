@@ -4,7 +4,7 @@ namespace pramp
 {
     public partial class Program
     {
-        public static void IslandCount_()
+        public static void _IslandCount()
         {
             Console.WriteLine(IslandCount());
         }
