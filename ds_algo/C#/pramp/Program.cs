@@ -6,7 +6,11 @@ namespace pramp
     {
         static void Main(string[] args)
         {
-            _IslandCount();
+            // _IslandCount();
+
+            // _WaysToDecodeAlphabetString();
+
+            _CountPairsWithDiffKInArray();
         }
     }
 }
