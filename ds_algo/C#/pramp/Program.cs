@@ -10,7 +10,11 @@ namespace pramp
 
             // _WaysToDecodeAlphabetString();
 
-            _CountPairsWithDiffKInArray();
+            // _CountPairsWithDiffKInArray();
+
+            // _MoveZerosToEndInArray();
+
+            _NewBudgetGrantAllocation();
         }
     }
 }

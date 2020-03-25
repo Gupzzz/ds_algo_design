@@ -1,10 +1,10 @@
 using System;
-
+using System.Collections;
 namespace pramp
 {
     public partial class Program
     {
-        public static int CountPairsWithDiffKInArray(int[] input, int k)
+        public static int CountPairsWithDiffKInArrayUsingTwoPointers(int[] input, int k)
         {
             int[] localInput = input;
             Array.Sort(localInput);
@@ -33,11 +33,30 @@ namespace pramp
 
             return count;
         }
+        
+        public static int CountPairsWithDiffKInArrayUsingHashTable(int[] input, int k)
+        {
+            Hashtable indexer = new Hashtable();
+            foreach (int item in input)
+            {
+                indexer.Add(Convert.ToInt32(item), 
+                    Convert.ToInt32(item - k));
+            }
+            int count = 0;
+            foreach (int item in input)
+            {
+                if(indexer.ContainsValue(item))
+                    count++;
+            }
+            return count;
+        }
+
         public static void _CountPairsWithDiffKInArray()
         {
             int[] input = { 5, 10, 100, 200, 150 };
             int k = 50;
-            Console.Write("Count of pairs with given diff is " + CountPairsWithDiffKInArray(input, k));
+            Console.WriteLine("Count of pairs with given diff is " + CountPairsWithDiffKInArrayUsingTwoPointers(input, k) + " [Using two pointer solution]");
+            Console.WriteLine("Count of pairs with given diff is " + CountPairsWithDiffKInArrayUsingHashTable(input, k) + " [Using hash table]");
         }
     }
 }
