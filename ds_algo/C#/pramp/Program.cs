@@ -6,8 +6,7 @@ namespace pramp
     {
         static void Main(string[] args)
         {
-            _IslandCount_();
-            Console.WriteLine("Test");
+            _IslandCount();
         }
     }
 }

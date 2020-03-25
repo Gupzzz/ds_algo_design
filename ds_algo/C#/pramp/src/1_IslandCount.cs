@@ -8,6 +8,7 @@ namespace pramp
         {
             Console.WriteLine(IslandCount());
         }
+        
         public static int IslandCount()
         {
             Console.WriteLine("Hello World!");
