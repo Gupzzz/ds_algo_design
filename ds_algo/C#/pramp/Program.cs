@@ -8,13 +8,13 @@ namespace pramp
         {
             // _IslandCount();
 
-            // _WaysToDecodeAlphabetString();
+             //_WaysToDecodeAlphabetString();
 
-            // _CountPairsWithDiffKInArray();
+             //_CountPairsWithDiffKInArray();
 
-            // _MoveZerosToEndInArray();
+             _MoveZerosToEndInArray();
 
-            _NewBudgetGrantAllocation();
+            //_NewBudgetGrantAllocation();
         }
     }
 }
