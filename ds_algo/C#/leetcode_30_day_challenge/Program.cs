@@ -2,11 +2,11 @@
 
 namespace leetcode_30_day_challenge
 {
-    class Program
+    public partial class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            _SingleNumber();
         }
     }
 }
