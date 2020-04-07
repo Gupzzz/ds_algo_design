@@ -5,7 +5,9 @@ namespace leetcode_30_day_challenge {
         static void Main (string[] args) {
             // _SingleNumber ();
 
-            _GroupAnagrams();
+            //_GroupAnagrams();
+
+            _CountingNumbers ();
         }
     }
 }
