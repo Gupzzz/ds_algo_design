@@ -11,7 +11,9 @@ namespace leetcode_30_day_challenge {
 
             // _MiddleOfLinkedList();
 
-            _BackspaceStringCompare();
+            // _BackspaceStringCompare();
+
+            _MinStack();
         }
     }
 }
