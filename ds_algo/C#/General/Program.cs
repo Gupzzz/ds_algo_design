@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace general
 {
-    class Program
+    public partial class Program
     {
         public static void Main(string[] args)
         {
@@ -93,7 +93,9 @@ namespace general
 
             // programObject.SortedSquaredArrayM();
 
-            programObject.rotatingMatrixM();
+            // programObject.rotatingMatrixM();
+
+            _HeapSort();
 
             // To Do problems:
             // Addition in a linked list

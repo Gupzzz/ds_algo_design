@@ -15,7 +15,9 @@ namespace leetcode_30_day_challenge {
 
             // _MinStack();
 
-            _DiameterOfBinaryTree();
+            // _DiameterOfBinaryTree();
+
+            _LastStoneWeight();
         }
     }
 }
