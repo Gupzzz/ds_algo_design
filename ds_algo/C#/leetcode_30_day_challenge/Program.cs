@@ -18,8 +18,10 @@ namespace leetcode_30_day_challenge {
             // _DiameterOfBinaryTree();
 
             // _LastStoneWeight();
-            
-            _ContiguousArrayOf0And1();
+
+            // _ContiguousArrayOf0And1();
+
+            _PerformStringShifts();
         }
     }
 }
