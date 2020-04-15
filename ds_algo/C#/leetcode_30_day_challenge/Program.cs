@@ -21,7 +21,9 @@ namespace leetcode_30_day_challenge {
 
             // _ContiguousArrayOf0And1();
 
-            _PerformStringShifts();
+            // _PerformStringShifts();
+
+            _ProductOfArrayExceptSelf();
         }
     }
 }
