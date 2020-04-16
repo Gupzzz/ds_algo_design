@@ -3,7 +3,7 @@
 namespace leetcode_30_day_challenge {
     public partial class Program {
         static void Main (string[] args) {
-            // _SingleNumber ();
+             _SingleNumber ();
 
             //_GroupAnagrams();
 
@@ -19,7 +19,7 @@ namespace leetcode_30_day_challenge {
 
             // _LastStoneWeight();
             
-            _ContiguousArrayOf0And1();
+           // _ContiguousArrayOf0And1();
         }
     }
 }
