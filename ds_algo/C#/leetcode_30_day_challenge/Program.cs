@@ -23,7 +23,9 @@ namespace leetcode_30_day_challenge {
 
             // _PerformStringShifts();
 
-            _ProductOfArrayExceptSelf();
+            // _ProductOfArrayExceptSelf();
+
+            _ValidParenthesisString();
         }
     }
 }
