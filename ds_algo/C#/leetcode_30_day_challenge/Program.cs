@@ -5,7 +5,7 @@ namespace leetcode_30_day_challenge {
         static void Main (string[] args) {
             // _SingleNumber ();
 
-            //_GroupAnagrams();
+            // _GroupAnagrams();
 
             // _CountingNumbers ();
 
@@ -20,8 +20,6 @@ namespace leetcode_30_day_challenge {
             // _LastStoneWeight();
 
             // _ContiguousArrayOf0And1();
-
-            // _PerformStringShifts();
 
             // _ProductOfArrayExceptSelf();
 
