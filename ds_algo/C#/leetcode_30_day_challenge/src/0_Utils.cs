@@ -1,5 +1,9 @@
 namespace leetcode_30_day_challenge
 {
+    public partial class Program{
+        static int i = 0;
+    }
+    
     public class TreeNode
     {
         public int val;
