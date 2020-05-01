@@ -7,6 +7,14 @@ namespace leetcode_30_day_challenge {
         {
             // _SingleNumber ();
 
+            // _IsHappy();
+
+            // _MaximumSubarray();
+
+            // _MoveZerosToEnd();
+
+            _BestTimeToBuySellStock();
+
             // _GroupAnagrams();
 
             // _CountingNumbers ();
@@ -39,7 +47,7 @@ namespace leetcode_30_day_challenge {
 
             // _LeftmostColumnWithOne();
 
-            _NoOfSubarrayWithSumGreaterThanK();
+            // _NoOfSubarrayWithSumGreaterThanK();
         }
     }
 }

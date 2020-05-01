@@ -1,0 +1,5 @@
+namespace leetcode_30_day_challenge{
+    public partial class Program{
+        
+    }
+}
