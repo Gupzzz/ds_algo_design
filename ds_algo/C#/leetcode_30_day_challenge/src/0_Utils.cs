@@ -18,4 +18,12 @@ namespace leetcode_30_day_challenge
         public ListNode next;
         public ListNode(int x) { val = x; }
     }
+
+    class DLinkedListNode
+    {
+        public int key;
+        public int value;
+        public DLinkedListNode previous;
+        public DLinkedListNode next;
+    }
 }

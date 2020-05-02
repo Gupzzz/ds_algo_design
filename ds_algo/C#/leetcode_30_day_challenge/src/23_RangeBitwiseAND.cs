@@ -35,12 +35,8 @@ namespace leetcode_30_day_challenge
             int moveFactor = 1;
             while (m != n)
             {
-                Console.Write(m + "\t");
                 m >>= 1;
-                Console.Write(m + "\t");
-                Console.Write(n + "\t");
                 n >>= 1;
-                Console.Write(n + "\n");
 
                 moveFactor <<= 1;
             }
