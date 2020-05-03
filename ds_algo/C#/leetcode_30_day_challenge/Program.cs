@@ -53,7 +53,11 @@ namespace leetcode_30_day_challenge {
 
             // _JumpGame();
 
-            _LongestCommonSubsequence();
+            // _LongestCommonSubsequence();
+
+            // _MaximalSquare();
+
+            _BinaryTreeMaximumPathSum();
         }
     }
 }
