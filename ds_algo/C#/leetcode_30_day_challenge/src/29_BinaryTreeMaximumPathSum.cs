@@ -11,10 +11,13 @@ namespace leetcode_30_day_challenge{
         }
         public static void _BinaryTreeMaximumPathSum(){
             maxValue = Int32.MinValue;
-            TreeNode root = new TreeNode(10);
-            root.left = new TreeNode(20);
-            root.right = new TreeNode(30);
-            Console.WriteLine("Maximum path sum is " + BinaryTreeMaximumPathSum(root));
+            TreeNode root = new TreeNode(-10);
+            root.left = new TreeNode(9);
+            root.right = new TreeNode(20);
+            root.right.left = new TreeNode(15);
+            root.right.right = new TreeNode(7);
+            BinaryTreeMaximumPathSum(root);
+            Console.WriteLine("Maximum path sum is " + maxValue);
         }
     }
 }
