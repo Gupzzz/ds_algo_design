@@ -25,11 +25,6 @@ using System.Collections.Generic;
 
 public partial class Program
     {
-        public class TrieNode
-        {
-            public Dictionary<char, TrieNode> Children = new Dictionary<char, TrieNode>();
-        }
-
         public class SuffixTrie
         {
             public TrieNode root = new TrieNode();
