@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jMUYV+4x1DR6YyTS7HxOdxjLwzSSdfs/p/7UzT3VMygZvqQyQzyLqWlxPDIE9eMvgCQDM6DuIhlwIeF8CFtigA==",
+  "success": true,
+  "projectFilePath": "/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/algoexpert/algoexpert.csproj",
+  "expectedPackageFiles": [
+    "/Users/arunguptha/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

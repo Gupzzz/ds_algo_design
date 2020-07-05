@@ -1,0 +1,12 @@
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/obj/Debug/netcoreapp3.0/pramp.csprojAssemblyReference.cache
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/obj/Debug/netcoreapp3.0/pramp.AssemblyInfoInputs.cache
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/obj/Debug/netcoreapp3.0/pramp.AssemblyInfo.cs
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/bin/Debug/netcoreapp3.0/pramp.deps.json
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/bin/Debug/netcoreapp3.0/pramp.runtimeconfig.json
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/bin/Debug/netcoreapp3.0/pramp.runtimeconfig.dev.json
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/bin/Debug/netcoreapp3.0/pramp.dll
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/bin/Debug/netcoreapp3.0/pramp.pdb
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/obj/Debug/netcoreapp3.0/pramp.dll
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/obj/Debug/netcoreapp3.0/pramp.pdb
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/obj/Debug/netcoreapp3.0/pramp.csproj.CoreCompileInputs.cache
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/obj/Debug/netcoreapp3.0/pramp.genruntimeconfig.cache

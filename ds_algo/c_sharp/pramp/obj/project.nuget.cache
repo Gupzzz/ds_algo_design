@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tBl/oaOhbuAI3SJDTF2oIRMYVWrK8o29gdR52wLJrxIJdl+5Sl26g+3QtbFwoxDIein/NqmX46a9DPqiBEc/+w==",
+  "success": true,
+  "projectFilePath": "/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/pramp/pramp.csproj",
+  "expectedPackageFiles": [
+    "/Users/arunguptha/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

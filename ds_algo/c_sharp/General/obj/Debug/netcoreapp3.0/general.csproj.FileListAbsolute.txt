@@ -1,0 +1,12 @@
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/bin/Debug/netcoreapp3.0/general.deps.json
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/bin/Debug/netcoreapp3.0/general.runtimeconfig.json
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/bin/Debug/netcoreapp3.0/general.runtimeconfig.dev.json
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/bin/Debug/netcoreapp3.0/general.dll
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/bin/Debug/netcoreapp3.0/general.pdb
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/obj/Debug/netcoreapp3.0/general.csprojAssemblyReference.cache
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/obj/Debug/netcoreapp3.0/general.AssemblyInfoInputs.cache
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/obj/Debug/netcoreapp3.0/general.AssemblyInfo.cs
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/obj/Debug/netcoreapp3.0/general.dll
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/obj/Debug/netcoreapp3.0/general.pdb
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/obj/Debug/netcoreapp3.0/general.csproj.CoreCompileInputs.cache
+/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/General/obj/Debug/netcoreapp3.0/general.genruntimeconfig.cache

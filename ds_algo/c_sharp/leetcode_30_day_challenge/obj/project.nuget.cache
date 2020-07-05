@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4Vt+VSeWJV38NFmYFtfYS2f7SFbTQl4RNDwRgNGmnpL8EU0BUkT4rL98ErHXkMyOU1uSTvna9X3gLZzqHjTmDA==",
+  "success": true,
+  "projectFilePath": "/Users/arunguptha/my-personal-git-repos/ds_algo_design/ds_algo/C#/leetcode_30_day_challenge/leetcode_30_day_challenge.csproj",
+  "expectedPackageFiles": [
+    "/Users/arunguptha/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
