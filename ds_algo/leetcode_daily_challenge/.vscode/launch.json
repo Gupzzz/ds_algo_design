@@ -6,15 +6,7 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Solution",
-            "request": "launch",
-            "mainClass": "src.August2020.Solution",
-            "projectName": "leetcode_daily_challenge_5a58125b",
-            "console": "internalConsole"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch) - Current File",
+            "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
             "console": "internalConsole"

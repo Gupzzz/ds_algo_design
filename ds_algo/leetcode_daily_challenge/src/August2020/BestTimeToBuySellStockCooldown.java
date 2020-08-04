@@ -1,5 +1,3 @@
-package src.August2020;
-
 public class BestTimeToBuySellStockCooldown {
     public static void main(String[] args) {
         System.out.println("Max profit : " + maxProfit(new int[] {1,2,3,0,2}));

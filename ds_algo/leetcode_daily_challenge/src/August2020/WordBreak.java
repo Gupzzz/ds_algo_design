@@ -1,5 +1,3 @@
-package src.August2020;
-
 import java.util.*;
 
 class Solution {
